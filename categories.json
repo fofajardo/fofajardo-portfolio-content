@@ -1,0 +1,26 @@
+{
+  "experienceCategories": [
+    {
+      "id": "professional",
+      "name": "Professional"
+    },
+    {
+      "id": "volunteering",
+      "name": "Volunteering"
+    },
+    {
+      "id": "talks",
+      "name": "Invited Talks and Presentations"
+    }
+  ],
+  "projectCategories": [
+    {
+      "id": "personal",
+      "name": "Personal"
+    },
+    {
+      "id": "academic",
+      "name": "Academic"
+    }
+  ]
+}

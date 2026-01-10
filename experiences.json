@@ -1,0 +1,84 @@
+{
+  "experiences": [
+    {
+      "category": "professional",
+      "title": "Unified XUL Platform Contributor/C++ Developer/Add-ons Team Member",
+      "organization": "Pale Moon web browser (volunteer capacity)",
+      "dateStart": "April 2022",
+      "points": [
+        "Adapted and ported JS and CSS web features from Firefox, enhancing compatibility and functionality, which significantly improved cross-browser performance and user satisfaction.",
+        "Developed a custom implementation of a CSS selector from scratch, effectively resolving display issues encountered by end-users across multiple websites, leading to a more consistent user experience.",
+        "Conducted thorough research on legacy code to understand its complexities, ensuring seamless integration with new features and enhancing overall system performance and maintainability.",
+        "Reviewed submissions made by extension and theme developers to the Pale Moon Add-ons Site, ensuring adherence to quality standards and compatibility with the browser.",
+        "Addressed issues and reviewed pull requests related to the browser's layout component, contributing to improved layout stability and a reduction in user-reported layout bugs."
+      ],
+      "links": [
+        {
+          "label": "View my pull requests",
+          "url": "https://repo.palemoon.org/MoonchildProductions/UXP/pulls?q=&type=all&sort=&state=&labels=&milestone=0&project=0&assignee=0&poster=16"
+        }
+      ]
+    },
+    {
+      "category": "professional",
+      "title": "Director for Marketing and Promotions",
+      "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
+      "dateStart": "November 2021",
+      "dateEnd": "August 2022",
+      "points": [
+        "Led the marketing and promotions team and made sure the publication materials are completed on time.",
+        "Designed posters and created audiovisual presentations for events and related organization activities.",
+        "Assisted and guided team members with questions that they may have about the publication materials.",
+        "Managed the social media pages of the organization on different platforms."
+      ],
+      "links": [
+        {
+          "label": "View AVPs",
+          "url": "https://www.youtube.com/@fofajardo/search?query=AVP"
+        }
+      ]
+    },
+    {
+      "category": "volunteering",
+      "title": "Chairperson",
+      "organization": "UPLB Alliance of Dormitory Associations",
+      "dateStart": "August 2025"
+    },
+    {
+      "category": "volunteering",
+      "title": "President",
+      "organization": "UPLB ATI-NTC Residence Hall Association",
+      "dateStart": "2023",
+      "points": [
+        "Partnered with residents and association officers to plan and execute engaging community events and projects.",
+        "Facilitated communication and coordination to address residents' concerns regarding their experiences in the dormitory with the dormitory manager, the Office of Student Housing, the UPLB Alliance of Dormitory Associations, and the UPLB University Student Council.",
+        "Developed a financial tracking spreadsheet for budget management, receipt organization, and event reminders, facilitated e-mail communications.",
+        "Deployed a Windows-based print server, significantly improving printing accessibility and efficiency for residents.",
+        "Designed posters and promotional materials, resulting in increased event attendance and participation from both residents and non-residents.",
+        "Managed social media platforms and handled livestreaming for gaming and social events, fostering online community engagement."
+      ]
+    },
+    {
+      "category": "talks",
+      "title": "Git Branching and Collaboration",
+      "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
+      "dateStart": "January 2025",
+      "dateEnd": "",
+      "description": "Fundamentals of Git version control. Essential Git terminology and commands. Practical Git workflow including setup, repository management, branching, and collaboration. Overview of Git hosting, tools, and authentication.",
+      "links": [
+        {
+          "label": "View",
+          "url": "https://www.facebook.com/JPCSAPC/posts/pfbid0siUgE4FBEfEMXS8zFStdeagJ1CafH3DjsHf6SH8Xng3xQZDudXK1h8EfQpRcVNBLl"
+        }
+      ]
+    },
+    {
+      "category": "talks",
+      "title": "SURINet: Suriin, Unawain, and Realize the Internet",
+      "organization": "National Service Training Program (NSTP) - Los Baños National High School, Grade 9 Class",
+      "dateStart": "November 2024",
+      "dateEnd": "December 2024",
+      "description": "Online privacy and security. Risks of oversharing information. Digital footprint management. Strong passwords and Two-Factor Authentication (2FA). Responsible social media use."
+    }
+  ]
+}

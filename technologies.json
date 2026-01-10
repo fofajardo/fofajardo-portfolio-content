@@ -1,0 +1,22 @@
+{
+  "technologies": {
+    "javafx": "Java/JavaFX",
+    "javaee": "Java/Jakarta EE",
+    "java": "Java",
+    "php": "PHP",
+    "webstack": "HTML, CSS, JS",
+    "nextjs": "React/Next.js",
+    "react": "React",
+    "nodejs": "Node.js",
+    "mongodb": "MongoDB",
+    "mysql": "MySQL",
+    "pwa": "Progressive Web App (PWA)",
+    "python": "Python",
+    "pygame": "Pygame",
+    "csharp": "C#",
+    "mgxna": "MonoGame/XNA",
+    "figma": "Figma",
+    "unity": "Unity",
+    "cpp": "C++"
+  }
+}

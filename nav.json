@@ -1,0 +1,61 @@
+{
+  "nav": [
+    {
+      "href": "/",
+      "icon": "tabler:home",
+      "label": "Home"
+    },
+    {
+      "href": "/experience",
+      "icon": "tabler:briefcase",
+      "label": "Experience"
+    },
+    {
+      "href": "/projects",
+      "icon": "tabler:git-merge",
+      "label": "Projects"
+    },
+    {
+      "href": "mailto:fajardo@duck.com",
+      "icon": "tabler:mail",
+      "label": "Email"
+    },
+    {
+      "href": "https://facebook.com/fofajardo",
+      "icon": "tabler:brand-facebook",
+      "label": "Facebook"
+    },
+    {
+      "href": "https://twitter.com/fofajardo",
+      "icon": "tabler:brand-twitter",
+      "label": "Twitter",
+      "limitTo": "launcher"
+    },
+    {
+      "href": "https://fosstodon.org/@fajardo",
+      "icon": "tabler:brand-mastodon",
+      "label": "Mastodon"
+    },
+    {
+      "href": "https://linkedin.com/in/fofajardo",
+      "icon": "tabler:brand-linkedin",
+      "label": "LinkedIn"
+    },
+    {
+      "href": "https://github.com/fofajardo",
+      "icon": "tabler:brand-github",
+      "label": "GitHub"
+    },
+    {
+      "href": "https://gitlab.com/fofajardo",
+      "icon": "tabler:brand-gitlab",
+      "label": "GitLab"
+    },
+    {
+      "href": "https://steamcommunity.com/id/frankwilco/",
+      "icon": "tabler:brand-steam",
+      "label": "Steam",
+      "limitTo": "launcher"
+    }
+  ]
+}
