@@ -214,7 +214,7 @@
       "technologies": ["csharp"],
       "points": [],
       "preview": "12",
-      "content": "### Overview\nNuVelocity is a project focused on creating an open-source re-implementation of Reflexive Entertainment's Velocity Engine, known for its role in games like Ricochet. The project has successfully decrypted and re-exported graphics assets from later Reflexive Entertainment games, such as [Ricochet Infinity](https://wiki.ricochetuniverse.com/wiki/Ricochet_Infinity) and [Ricochet HD](https://wiki.ricochetuniverse.com/wiki/Ricochet_HD). The aim is to revive these classic games for modern gamers while fostering a collaborative community of developers and enthusiasts.\n\nThe [NuVelocity Unpacker](https://github.com/frankwilco/NuVelocity.Unpacker/releases/latest) is already released to the public, as well as a list of currently supported games.",
+      "content": "NuVelocity is a project focused on creating an open-source re-implementation of Reflexive Entertainment's Velocity Engine, known for its role in games like Ricochet. The project has successfully decrypted and re-exported graphics assets from later Reflexive Entertainment games, such as [Ricochet Infinity](https://wiki.ricochetuniverse.com/wiki/Ricochet_Infinity) and [Ricochet HD](https://wiki.ricochetuniverse.com/wiki/Ricochet_HD). The aim is to revive these classic games for modern gamers while fostering a collaborative community of developers and enthusiasts.\n\nThe [NuVelocity Unpacker](https://github.com/frankwilco/NuVelocity.Unpacker/releases/latest) is already released to the public, as well as a list of currently supported games.",
       "links": [
         {
           "type": "github",
@@ -231,7 +231,7 @@
       "technologies": ["csharp", "unity"],
       "points": [],
       "preview": "13",
-      "content": "### Overview\nThis mod allows loading mods from directories outside the traditional Mods directory where the game resides.\n\nParticularly useful if you want to:\n * Organize mods and separate them by author, category, or whichever way you like.\n * Separate mods made by other people from mods made by yourself, especially if you're a mod developer.\n * Quickly add and remove a set of mods that you'd want to test.",
+      "content": "This mod allows loading mods from directories outside the traditional Mods directory where the game resides.\n\nParticularly useful if you want to:\n * Organize mods and separate them by author, category, or whichever way you like.\n * Separate mods made by other people from mods made by yourself, especially if you're a mod developer.\n * Quickly add and remove a set of mods that you'd want to test.",
       "links": [
         {
           "type": "github",
@@ -377,7 +377,7 @@
       ],
       "preview": "10",
       "previewset": true,
-      "content": "### Overview\nOur proposed solution involves the development of an electronic logging system aimed at reducing paper and pen usage, leading to environmental benefits, improving the efficiency of the logging process, and providing UPLB students with a more convenient and streamlined system.\n\nThe envisioned electronic logging system relies on the application of scientific and technological principles, especially in the fields of computer science and software engineering. With this expertise, we intend to create a user-friendly and highly efficient logging system.",
+      "content": "Our proposed solution involves the development of an electronic logging system aimed at reducing paper and pen usage, leading to environmental benefits, improving the efficiency of the logging process, and providing UPLB students with a more convenient and streamlined system.\n\nThe envisioned electronic logging system relies on the application of scientific and technological principles, especially in the fields of computer science and software engineering. With this expertise, we intend to create a user-friendly and highly efficient logging system.",
       "links": [
         {
           "type": "figma",
