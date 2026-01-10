@@ -1,6 +1,30 @@
 {
   "projects": [
     {
+      "tags": ["academic", "web"],
+      "id": "ics-astra",
+      "title": "ICS-ASTRA",
+      "subtitle": "Alumni System for Tracking Relations and Advancement",
+      "dateStart": "March 2025",
+      "dateEnd": "May 2025",
+      "technologies": ["webstack-ts", "react", "nodejs", "supabase", "tailwind", "shadcn", "casl", "mocha", "chai", "digitalocean", "pwa"],
+      "points": [
+        "Led a team of 19 students as project manager in developing a comprehensive alumni management system for UPLB ICS, facilitating enhanced tracking of alumni relations and career progression.",
+        "Engineered a robust backend using Node.js and Supabase to manage user authentication, data storage, and complex relational queries.",
+        "Implemented role-based access control (RBAC) using CASL to secure sensitive alumni data and functionalities.",
+        "Developed and executed unit and integration tests with Mocha and Chai to ensure code reliability and maintainability.",
+        "Managed deployment and hosting on DigitalOcean to ensure stable production environment."
+      ],
+      "preview": "20",
+      "previewset": true,
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/fofajardo/cmsc128-ics-astra"
+        }
+      ]
+    },
+    {
       "tags": ["personal", "packages"],
       "id": "rtl8851bu",
       "title": "rtl8851bu",

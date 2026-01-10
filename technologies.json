@@ -19,6 +19,14 @@
     "figma": "Figma",
     "unity": "Unity",
     "cpp": "C++",
-    "vite": "Vite"
+    "vite": "Vite",
+    "supabase": "Supabase",
+    "tailwind": "Tailwind CSS",
+    "shadcn": "shadcn/ui",
+    "casl": "CASL",
+    "svelte": "Svelte",
+    "mocha": "Mocha",
+    "chai": "Chai",
+    "digitalocean": "DigitalOcean"
   }
 }
