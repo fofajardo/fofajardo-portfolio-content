@@ -16,6 +16,11 @@
       "name": "Invited Talks and Presentations"
     },
     {
+      "id": "all-projects",
+      "category": "project",
+      "name": "All"
+    },
+    {
       "id": "personal",
       "category": "project",
       "name": "Personal"
@@ -24,6 +29,21 @@
       "id": "academic",
       "category": "project",
       "name": "Academic"
+    },
+    {
+      "id": "packages",
+      "category": "project",
+      "name": "Packages and Libraries"
+    },
+    {
+      "id": "games-and-mods",
+      "category": "project",
+      "name": "Games and Mods"
+    },
+    {
+      "id": "web",
+      "category": "project",
+      "name": "Web Development"
     }
   ]
 }

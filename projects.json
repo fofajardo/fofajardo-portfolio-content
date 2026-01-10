@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "tags": ["personal"],
+      "tags": ["personal", "packages"],
       "id": "rtl8851bu",
       "title": "rtl8851bu",
       "subtitle": "Modified and updated version of Realtek RTL8851BU Wi-Fi USB Driver for Linux",
@@ -11,7 +11,7 @@
       "preview": "16"
     },
     {
-      "tags": ["personal"],
+      "tags": ["personal", "packages"],
       "id": "psgc-areas",
       "title": "PSGC Areas",
       "subtitle": "NPM package that provides a JS interface to access the Philippine Standard Geographic Code (PSGC) data",
@@ -21,7 +21,7 @@
       "preview": "17"
     },
     {
-      "tags": ["personal"],
+      "tags": ["personal", "games-and-mods"],
       "id": "nuvelocity",
       "title": "NuVelocity",
       "subtitle": "Re-implementation of Reflexive's Velocity Engine",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "tags": ["personal"],
+      "tags": ["personal", "games-and-mods"],
       "id": "rimworld-custommodsfolders",
       "title": "Custom Mods Folders for RimWorld",
       "subtitle": "Alternative Mod Loader",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "tags": ["personal"],
+      "tags": ["personal", "web"],
       "id": "projectfresco",
       "title": "Project Fresco",
       "subtitle": "JS-based Add-ons Site for XUL Applications",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "tags": ["personal"],
+      "tags": ["personal", "packages"],
       "id": "uxp-add-ons",
       "title": "Add-ons for UXP Applications",
       "subtitle": "Extensions and Themes for Various Purposes",
@@ -82,7 +82,7 @@
       "preview": "14"
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "food-review",
       "title": "Food Review",
       "subtitle": "Mini food and establishment review platform",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "e-mbakan",
       "title": "E-mbakan",
       "subtitle": "Agriculture-oriented, farm-to-table, e-commerce platform",
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "packages"],
       "id": "numinous-solver",
       "title": "Numinous Solver",
       "subtitle": "Quadratic Spline Interpolation, Polynomial Regression, and Simplex Minimization (Diet Problem) solver",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "games-and-mods"],
       "id": "deadwoodjustice",
       "title": "Deadwood Justice",
       "subtitle": "Western-themed Shooting Game",
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "sts-doms",
       "title": "Dormitory Online Monitoring System",
       "subtitle": "Mobile App for UPLB Dormitory Transactions",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "games-and-mods"],
       "id": "dikta",
       "title": "Dikta",
       "subtitle": "Investigative Point and Click Adventure Game",
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "agrikulturam",
       "title": "AgrikultuRAM",
       "subtitle": "Interactive Front-end for Banana Plantation Pest Management",
@@ -247,7 +247,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "elections",
       "title": "Halal (aka Project Elections)",
       "subtitle": "Customizable voting/polling system",
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "kodatos",
       "title": "KoDatos",
       "subtitle": "COVID-19 vaccination and test records platform",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "games-and-mods"],
       "id": "pacificliberty",
       "title": "Pacific Liberty",
       "subtitle": "Interactive Fiction Computer Game",
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "yakan",
       "title": "Yakan",
       "subtitle": "Blog/Content Management System (CMS)",
@@ -328,7 +328,7 @@
       "previewset": true
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "web"],
       "id": "fortschritt",
       "title": "Fortschritt",
       "subtitle": "Learning Management System (LMS)",
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "tags": ["academic"],
+      "tags": ["academic", "games-and-mods"],
       "id": "getsaved",
       "title": "Get Saved",
       "subtitle": "Video Game Prototype for Disaster Preparedness Education",
