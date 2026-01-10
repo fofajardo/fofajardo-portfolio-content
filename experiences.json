@@ -1,7 +1,7 @@
 {
   "experiences": [
     {
-      "category": "professional",
+      "tags": ["professional"],
       "title": "Unified XUL Platform Contributor/C++ Developer/Add-ons Team Member",
       "organization": "Pale Moon web browser (volunteer capacity)",
       "dateStart": "April 2022",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "category": "professional",
+      "tags": ["professional"],
       "title": "Director for Marketing and Promotions",
       "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
       "dateStart": "November 2021",
@@ -39,13 +39,13 @@
       ]
     },
     {
-      "category": "volunteering",
+      "tags": ["volunteering"],
       "title": "Chairperson",
       "organization": "UPLB Alliance of Dormitory Associations",
       "dateStart": "August 2025"
     },
     {
-      "category": "volunteering",
+      "tags": ["volunteering"],
       "title": "President",
       "organization": "UPLB ATI-NTC Residence Hall Association",
       "dateStart": "2023",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "category": "talks",
+      "tags": ["talks"],
       "title": "Git Branching and Collaboration",
       "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
       "dateStart": "January 2025",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "category": "talks",
+      "tags": ["talks"],
       "title": "SURINet: Suriin, Unawain, and Realize the Internet",
       "organization": "National Service Training Program (NSTP) - Los Baños National High School, Grade 9 Class",
       "dateStart": "November 2024",

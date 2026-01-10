@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "category": "personal",
+      "tags": ["personal"],
       "id": "rtl8851bu",
       "title": "rtl8851bu",
       "subtitle": "Modified and updated version of Realtek RTL8851BU Wi-Fi USB Driver for Linux",
@@ -11,7 +11,7 @@
       "preview": "16"
     },
     {
-      "category": "personal",
+      "tags": ["personal"],
       "id": "psgc-areas",
       "title": "PSGC Areas",
       "subtitle": "NPM package that provides a JS interface to access the Philippine Standard Geographic Code (PSGC) data",
@@ -21,7 +21,7 @@
       "preview": "17"
     },
     {
-      "category": "personal",
+      "tags": ["personal"],
       "id": "nuvelocity",
       "title": "NuVelocity",
       "subtitle": "Re-implementation of Reflexive's Velocity Engine",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "category": "personal",
+      "tags": ["personal"],
       "id": "rimworld-custommodsfolders",
       "title": "Custom Mods Folders for RimWorld",
       "subtitle": "Alternative Mod Loader",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "category": "personal",
+      "tags": ["personal"],
       "id": "projectfresco",
       "title": "Project Fresco",
       "subtitle": "JS-based Add-ons Site for XUL Applications",
@@ -64,7 +64,7 @@
       "points": [],
       "preview": "11",
       "previewset": true,
-      "content": "**Project Fresco** was initially developed as a temporary measure back when the Pale Moon add-ons site went down. It has the following set of features, as of writing:\n * **Full add-on name/description/keywords/author search.** Just type [Lootyhoof](https://projectfresco.github.io/addons/?q=lootyhoof) and all of his extensions will show-up in the results. Partial matches also work!\n * **User pages.** There is now a dedicated page that show every add-on associated with a specific user. Here's an [example](https://projectfresco.github.io/addons/?user=franklindm).\n * **Random add-ons listing in the home page.** Since writing a recommendation algorithm introduces some bias and privacy implications that I'd rather not deal with, the Fresco project [home page](https://projectfresco.github.io/addons/) now shows random applications, extensions, themes, and dictionaries that might be of interest. It does change with every refresh.\n * **Pagination.** Add-on categories don't show everything at once and the listing is now separated by numbered pages.\n * **Release notes.**\n * **Site themes.** Right now, there are 3 site themes to choose from: Default (modern AMO style), Cavendish (classic Mozilla style), and Blue (APMO style).\n * **Dedicated discussion section.** Shown on each add-on page. Hosted via GitHub discussions and supports \"reactions\".\n\n**Some technical details:** Fresco uses the GitHub API for nearly every add-on entry, which is why it does not require manual changes if a specific add-on releases a new update. Since it sits on top of GitHub Pages, it cannot use PHP or any other tech that would produce static pages with data from the GitHub API, unless we'd (a) go with the manual route, that is, to manually update each and every page with every add-on update; or (b) host it in a separate, independently-hosted site. This isn't practical and is something that I'm not willing to do for a site that acts as a mirror, which is why I've went with a JS approach in accessing the GitHub API and in building the add-on pages and lists.",
+      "content": "**Project Fresco** was initially developed as a temporary measure back when the Pale Moon add-ons site went down. It has the following set of features, as of writing:\n * **Full add-on name/description/keywords/author search.** Just type [Lootyhoof](https://projectfresco.github.io/addons/?q=lootyhoof) and all of his extensions will show-up in the results. Partial matches also work!\n * **User pages.** There is now a dedicated page that show every add-on associated with a specific user. Here's an [example](https://projectfresco.github.io/addons/?user=franklindm).\n * **Random add-ons listing in the home page.** Since writing a recommendation algorithm introduces some bias and privacy implications that I'd rather not deal with, the Fresco project [home page](https://projectfresco.github.io/addons/) now shows random applications, extensions, themes, and dictionaries that might be of interest. It does change with every refresh.\n * **Pagination.** Add-on tags don't show everything at once and the listing is now separated by numbered pages.\n * **Release notes.**\n * **Site themes.** Right now, there are 3 site themes to choose from: Default (modern AMO style), Cavendish (classic Mozilla style), and Blue (APMO style).\n * **Dedicated discussion section.** Shown on each add-on page. Hosted via GitHub discussions and supports \"reactions\".\n\n**Some technical details:** Fresco uses the GitHub API for nearly every add-on entry, which is why it does not require manual changes if a specific add-on releases a new update. Since it sits on top of GitHub Pages, it cannot use PHP or any other tech that would produce static pages with data from the GitHub API, unless we'd (a) go with the manual route, that is, to manually update each and every page with every add-on update; or (b) host it in a separate, independently-hosted site. This isn't practical and is something that I'm not willing to do for a site that acts as a mirror, which is why I've went with a JS approach in accessing the GitHub API and in building the add-on pages and lists.",
       "links": [
         {
           "type": "site",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "category": "personal",
+      "tags": ["personal"],
       "id": "uxp-add-ons",
       "title": "Add-ons for UXP Applications",
       "subtitle": "Extensions and Themes for Various Purposes",
@@ -82,7 +82,7 @@
       "preview": "14"
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "food-review",
       "title": "Food Review",
       "subtitle": "Mini food and establishment review platform",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "e-mbakan",
       "title": "E-mbakan",
       "subtitle": "Agriculture-oriented, farm-to-table, e-commerce platform",
@@ -122,7 +122,7 @@
       ],
       "preview": "18",
       "previewset": true,
-      "content": "E-mbakan is an online store designed to let farmers sell their products directly to consumers. The goal is to make buying and selling agricultural goods easier, with the potential to be used by the Philippines' Department of Agriculture to remove middlemen. The website allows people to sign up for accounts either as regular shoppers or as merchants. It is built using common web technologies, including React JS for the design, Node JS for the server, and MongoDB for the database.\n\nFor shoppers, the website works like a standard online store where they can browse items by categories like crops or poultry. Users can filter products by price or stock, add items to a shopping cart, and check out using a cash-on-delivery payment method. A key feature is that the shopping cart saves items even if the user logs out. Shoppers can also view their past order history and have the option to cancel an order as long as the seller has not confirmed it yet.\n\nMerchants and administrators have access to a specific dashboard to manage the business side of the platform. They can add new products, update inventory levels, and view sales reports to track weekly or monthly income. When orders come in, merchants can confirm them for delivery or cancel them if necessary. The system handles user logins using cookies, though this currently works best on Firefox due to security settings on other browsers while the site is in the testing phase.\n\n*Video demonstration courtesy of R. F. Ramos.*",
+      "content": "E-mbakan is an online store designed to let farmers sell their products directly to consumers. The goal is to make buying and selling agricultural goods easier, with the potential to be used by the Philippines' Department of Agriculture to remove middlemen. The website allows people to sign up for accounts either as regular shoppers or as merchants. It is built using common web technologies, including React JS for the design, Node JS for the server, and MongoDB for the database.\n\nFor shoppers, the website works like a standard online store where they can browse items by tags like crops or poultry. Users can filter products by price or stock, add items to a shopping cart, and check out using a cash-on-delivery payment method. A key feature is that the shopping cart saves items even if the user logs out. Shoppers can also view their past order history and have the option to cancel an order as long as the seller has not confirmed it yet.\n\nMerchants and administrators have access to a specific dashboard to manage the business side of the platform. They can add new products, update inventory levels, and view sales reports to track weekly or monthly income. When orders come in, merchants can confirm them for delivery or cancel them if necessary. The system handles user logins using cookies, though this currently works best on Firefox due to security settings on other browsers while the site is in the testing phase.\n\n*Video demonstration courtesy of R. F. Ramos.*",
       "links": [
         {
           "type": "github",
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "numinous-solver",
       "title": "Numinous Solver",
       "subtitle": "Quadratic Spline Interpolation, Polynomial Regression, and Simplex Minimization (Diet Problem) solver",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "deadwoodjustice",
       "title": "Deadwood Justice",
       "subtitle": "Western-themed Shooting Game",
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "sts-doms",
       "title": "Dormitory Online Monitoring System",
       "subtitle": "Mobile App for UPLB Dormitory Transactions",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "dikta",
       "title": "Dikta",
       "subtitle": "Investigative Point and Click Adventure Game",
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "agrikulturam",
       "title": "AgrikultuRAM",
       "subtitle": "Interactive Front-end for Banana Plantation Pest Management",
@@ -247,7 +247,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "elections",
       "title": "Halal (aka Project Elections)",
       "subtitle": "Customizable voting/polling system",
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "kodatos",
       "title": "KoDatos",
       "subtitle": "COVID-19 vaccination and test records platform",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "pacificliberty",
       "title": "Pacific Liberty",
       "subtitle": "Interactive Fiction Computer Game",
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "yakan",
       "title": "Yakan",
       "subtitle": "Blog/Content Management System (CMS)",
@@ -328,7 +328,7 @@
       "previewset": true
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "fortschritt",
       "title": "Fortschritt",
       "subtitle": "Learning Management System (LMS)",
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "category": "academic",
+      "tags": ["academic"],
       "id": "getsaved",
       "title": "Get Saved",
       "subtitle": "Video Game Prototype for Disaster Preparedness Education",
