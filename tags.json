@@ -44,6 +44,11 @@
       "id": "web",
       "category": "project",
       "name": "Web Development"
+    },
+    {
+      "id": "hci-ux",
+      "category": "project",
+      "name": "HCI/UX"
     }
   ]
 }
