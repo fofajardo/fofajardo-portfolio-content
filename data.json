@@ -58,11 +58,20 @@
             "limitTo": "launcher"
         }
     ],
-    "experienceTypes": {
-        "professional": "Professional",
-        "volunteering": "Volunteering",
-        "talks": "Invited Talks and Presentations"
-    },
+    "experienceCategories": [
+        {
+            "id": "professional",
+            "name": "Professional"
+        },
+        {
+            "id": "volunteering",
+            "name": "Volunteering"
+        },
+        {
+            "id": "talks",
+            "name": "Invited Talks and Presentations"
+        }
+    ],
     "experience": {
         "professional": [
             {
