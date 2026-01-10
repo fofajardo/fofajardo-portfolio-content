@@ -5,6 +5,7 @@
     "java": "Java",
     "php": "PHP",
     "webstack": "HTML, CSS, JS",
+    "webstack-ts": "HTML, CSS, TypeScript",
     "nextjs": "React/Next.js",
     "react": "React",
     "nodejs": "Node.js",
@@ -17,6 +18,7 @@
     "mgxna": "MonoGame/XNA",
     "figma": "Figma",
     "unity": "Unity",
-    "cpp": "C++"
+    "cpp": "C++",
+    "vite": "Vite"
   }
 }

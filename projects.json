@@ -88,7 +88,7 @@
       "subtitle": "Mini food and establishment review platform",
       "dateStart": "May 2024",
       "dateEnd": "June 2024",
-      "technologies": ["webstack", "nodejs", "mysql", "react"],
+      "technologies": ["webstack-ts", "react", "vite", "nodejs", "mysql"],
       "points": [
         "Implemented core backend logic using Express.js and Node.js, including secure user authentication with Passport.js.",
         "Integrated frontend (Vite + React) with backend APIs to enable dynamic review submission, retrieval, and user session handling.",
@@ -111,7 +111,7 @@
       "subtitle": "Agriculture-oriented, farm-to-table, e-commerce platform",
       "dateStart": "November 2023",
       "dateEnd": "January 2024",
-      "technologies": ["webstack", "nodejs", "mongodb"],
+      "technologies": ["webstack", "react", "nodejs", "mongodb"],
       "points": [
         "Led a development team of 4 in building a full-stack e-commerce web application to connect farmers directly with consumers.",
         "Managed the entire development cycle including planning, task distribution, UI/UX coordination, and system integration.",
@@ -122,7 +122,7 @@
       ],
       "preview": "18",
       "previewset": true,
-      "content": "*Video demonstration courtesy of R. F. Ramos.*",
+      "content": "E-mbakan is an online store designed to let farmers sell their products directly to consumers. The goal is to make buying and selling agricultural goods easier, with the potential to be used by the Philippines' Department of Agriculture to remove middlemen. The website allows people to sign up for accounts either as regular shoppers or as merchants. It is built using common web technologies, including React JS for the design, Node JS for the server, and MongoDB for the database.\n\nFor shoppers, the website works like a standard online store where they can browse items by categories like crops or poultry. Users can filter products by price or stock, add items to a shopping cart, and check out using a cash-on-delivery payment method. A key feature is that the shopping cart saves items even if the user logs out. Shoppers can also view their past order history and have the option to cancel an order as long as the seller has not confirmed it yet.\n\nMerchants and administrators have access to a specific dashboard to manage the business side of the platform. They can add new products, update inventory levels, and view sales reports to track weekly or monthly income. When orders come in, merchants can confirm them for delivery or cancel them if necessary. The system handles user logins using cookies, though this currently works best on Firefox due to security settings on other browsers while the site is in the testing phase.\n\n*Video demonstration courtesy of R. F. Ramos.*",
       "links": [
         {
           "type": "github",
@@ -214,6 +214,7 @@
         "Designed and edited all the scenes for the game's graphics.",
         "Utilized Microsoft Azure Cognitive Services' [Text to Speech](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#overview) API in generating the voices of the game's characters."
       ],
+      "content": "**DIKTA** is a narrative-driven \"Hidden Object, Point and Click, Adventure Game\" designed specifically for Senior High School students. The project aims to provide an interactive alternative to traditional learning methods, making history education more engaging and accessible.\n\nSetting and Premise The game is set during the Martial Law era of the Philippines, a period chosen by the developers to combat the rise of historical revisionism and fake news surrounding the Marcos dictatorship. The narrative focuses on uncovering the realities of that time to help students distinguish fact from falsehood.\n\nPlayers assume the role of a journalist navigating the responsibilities and dangers of the era. Key gameplay features include:\n - Players must interview characters to gather information and find clues hidden in various locations.\n - The game forces players to make ethical choices, such as whether to stay silent or stand their ground on contentious issues, which can influence the game's ending or have consequences in later chapters.\n - Inspired by the game L.A. Noire, interactions involve choosing between \"Truth,\" \"Doubt,\" or \"Lie\" when questioning subjects.\n - Players collect objects in an inventory to unlock new areas or solve deduction puzzles, drawing inspiration from games like The Great Gatsby and Return of the Obra Dinn.\n\nThe primary objective is to improve the learning experience regarding Philippine history and to align with the [United Nations' Sustainable Development Goal 4: Quality Education](https://sdgs.un.org/goals/goal4). By immersing students in a digital recreation of the past, the game aims to foster critical thinking and social awareness.",
       "preview": "8",
       "previewset": true,
       "links": [
@@ -279,6 +280,7 @@
         "Developed a system for handling test results and vaccination records, primarily focused on COVID-19, that allowed people to verify the authenticity of these documents.",
         "Integrated many useful features, such as the ability to scan QR codes from vaccination records and test results."
       ],
+      "content": "**KoDatos** is a project that aims to provide Local Government Units (LGUs) with a unified platform for managing COVID-19 vaccination records and test results. The system functions as a centralized website that collates data from hospitals and laboratories, allowing for the creation of a standardized vaccination card design and digital copies for the public. Its primary objective is to simplify the collection and organization of health data across different localities while creating a single, reliable source for verifying records.\n\nThe project addresses specific issues regarding document security and efficiency, particularly the problem of people presenting fake vaccination cards or test results to travel or enter workplaces. To solve this, the platform sorts and examines documents, automatically notifying users if missing or false information is detected. This validation process is designed to reduce the confusion caused by current data encoding methods and significantly lower the chance of exposure to individuals using forged documents.",
       "preview": "5",
       "previewset": true,
       "links": [
@@ -300,7 +302,7 @@
         "Wrote a text-based interactive fiction computer game with a team, similar to the popular computer games of the late 70s like [Zork](https://en.wikipedia.org/wiki/Zork).",
         "Developed Statesman, a text adventure game system with a fully-featured scripting system, which means that the commands, interactions, text, and related resources are not hardcoded into the game and are instead read externally from the file system and parsed on runtime."
       ],
-      "content": "[Statesman](https://github.com/Lupalop/Statesman) is open source and was recently [ported to C#](https://github.com/Lupalop/Statesman/tree/port-csharp). Its scripting language [documentation](https://github.com/Lupalop/Statesman/blob/master/docs/script.md) is also available.",
+      "content": "**Pacific Liberty** is a text-based adventure game that takes players on a journey back in time to the period of the Bataan Death March during World War II. The game follows the story of a young man who discovers an entryway to the past in his ancestor's old house, transporting him to an entirely new world in the 1940s.\n\nUtilizing Statesman, a platform that enables the creation of modern text adventure games, Pacific Liberty offers an immersive and interactive experience for players. Inspired by early computer games like \"Zork,\" Pacific Liberty combines entertainment and educational value, emphasizing the \"edutainment\" aspect of gaming.\n\nIn the game, players must help the young man survive the harsh conditions of war by using their wits to navigate through the challenges and obstacles of the Bataan Death March. The American forces, led by Sgt. Miller, hold a clipboard bearing the names of the Filipino troops who will fight alongside the Americans to stop the Japanese army. Players must make strategic decisions and work together with Sgt. Miller and the troops to survive and ultimately achieve Pacific Liberty.\n\n[Statesman](https://github.com/Lupalop/Statesman) is open source and was recently [ported to C#](https://github.com/Lupalop/Statesman/tree/port-csharp). Its scripting language [documentation](https://github.com/Lupalop/Statesman/blob/master/docs/script.md) is also available.",
       "preview": "4",
       "previewset": true,
       "links": [
@@ -349,7 +351,7 @@
       "category": "academic",
       "id": "getsaved",
       "title": "Get Saved",
-      "subtitle": "Prototype Video Game",
+      "subtitle": "Video Game Prototype for Disaster Preparedness Education",
       "dateStart": "September 2018",
       "dateEnd": "",
       "technologies": ["csharp", "mgxna"],
@@ -357,7 +359,7 @@
         "Wrote a simple game engine on top of MonoGame that handles most of the general functions from game logic to the user interface used in a video game.",
         "Programmed a prototype video game that aims to raise disaster preparedness and awareness among children."
       ],
-      "content": "[Maquina](https://github.com/Lupalop/Maquina) is the game engine which was developed as part of this project.",
+      "content": "Get Saved is an educational app that informs people about proper procedures before, during, and after disasters, including fire, typhoon, and earthquake emergencies. This app is designed to educate users on what to do in a fun and engaging way by providing games that simulate the different stages of a disaster. This game was developed by a group of Grade 9 students from APEC Schools - Muntinlupa as part of their Life Labs subject. These students recognized the need for an educational tool that could help inform people about proper procedures before, during, and after disasters.\n\n #### Features \n\n The app includes three main games and two mini-games that teach users about the proper procedures for fire, typhoon, and earthquake emergencies. The three main games are designed to help users prepare before, deal with the disaster during, and recover after the disaster. The mini-games provide additional learning opportunities and reinforce the knowledge learned from the main games.\n\nOne of the unique features of this app is that it can be used as an educational tool in the classroom. Teachers can use it to educate their students about disaster preparedness in a fun and interactive way. The app is offline, which means it does not require an internet connection once it is downloaded.\n\n#### Goals\n\nThe main goal of this app is to educate people about proper procedures before, during, and after a disaster. By doing so, it aims to build disaster risk reduction capabilities among individuals and communities, using existing laws and guidelines to help prepare people for possible disasters.\n\nThe app aims to reduce the possible destruction caused by disasters by informing people about proper procedures and steps to take in case of an emergency. By making disaster preparedness fun and engaging, the app hopes to encourage more people to learn and adopt these procedures.\n\n[Maquina](https://github.com/Lupalop/Maquina) is the game engine which was developed as part of this project.",
       "preview": "1",
       "previewset": true,
       "links": [
