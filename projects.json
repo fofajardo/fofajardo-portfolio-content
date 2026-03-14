@@ -276,6 +276,10 @@
         {
           "type": "github",
           "url": "https://github.com/Lupalop/Dikta"
+        },
+        {
+          "type": "gameDemo",
+          "url": "https://lupalop.github.io/Dikta/"
         }
       ]
     },
