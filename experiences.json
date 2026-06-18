@@ -1,10 +1,19 @@
 {
   "experiences": [
     {
+      "tags": ["education"],
+      "title": "Bachelor of Science in Computer Science",
+      "organization": "University of the Philippines Los Baños",
+      "dateStart": "September 2022",
+      "dateEnd": "July 2026",
+      "description": "Member of the Honor Society of the Philippines"
+    },
+    {
       "tags": ["professional"],
-      "title": "Unified XUL Platform Contributor/C++ Developer/Add-ons Team Member",
-      "organization": "Pale Moon web browser (volunteer capacity)",
+      "title": "Unified XUL Platform Contributor/C++ Developer/Add-ons Team Member/Project Intern",
+      "organization": "MCP",
       "dateStart": "April 2022",
+      "dateEnd": "June 2025",
       "points": [
         "Adapted and ported JS and CSS web features from Firefox, enhancing compatibility and functionality, which significantly improved cross-browser performance and user satisfaction.",
         "Developed a custom implementation of a CSS selector from scratch, effectively resolving display issues encountered by end-users across multiple websites, leading to a more consistent user experience.",
@@ -42,13 +51,15 @@
       "tags": ["volunteering"],
       "title": "Chairperson",
       "organization": "UPLB Alliance of Dormitory Associations",
-      "dateStart": "August 2025"
+      "dateStart": "August 2025",
+      "dateEnd": "July 2026"
     },
     {
       "tags": ["volunteering"],
       "title": "President",
       "organization": "UPLB ATI-NTC Residence Hall Association",
-      "dateStart": "2023",
+      "dateStart": "September 2023",
+      "dateEnd": "July 2026",
       "points": [
         "Partnered with residents and association officers to plan and execute engaging community events and projects.",
         "Facilitated communication and coordination to address residents' concerns regarding their experiences in the dormitory with the dormitory manager, the Office of Student Housing, the UPLB Alliance of Dormitory Associations, and the UPLB University Student Council.",
