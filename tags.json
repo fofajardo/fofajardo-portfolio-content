@@ -1,6 +1,11 @@
 {
   "tags": [
     {
+      "id": "education",
+      "category": "experience",
+      "name": "Education"
+    },
+    {
       "id": "professional",
       "category": "experience",
       "name": "Professional"
