@@ -27,6 +27,9 @@
     "svelte": "Svelte",
     "mocha": "Mocha",
     "chai": "Chai",
-    "digitalocean": "DigitalOcean"
+    "digitalocean": "DigitalOcean",
+    "cloudflare-pages": "Cloudflare Pages",
+    "gsheets-api": "Google Sheets API",
+    "gcp": "Google Cloud Platform (GCP)"
   }
 }

@@ -1,6 +1,43 @@
 {
   "projects": [
     {
+      "tags": ["personal", "web"],
+      "id": "bangon-mindanao-network-dashboard",
+      "title": "Bangon Mindanao Network Dashboard",
+      "subtitle": "Dashboard for tracking the status of donations and relief efforts for the 2026 Mindanao earthquake",
+      "dateStart": "June 2026",
+      "dateEnd": "",
+      "technologies": ["webstack-ts", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "cloudflare-pages"],
+      "points": [
+        "Developed a dashboard to track the status of donations and relief efforts for the 2026 Mindanao earthquake, utilizing the Google Sheets API for data management.",
+        "Collaborated with volunteers to gather requirements and ensure the dashboard effectively meets the needs of those involved in the relief efforts.",
+        "Designed a user-friendly interface using Svelte and Tailwind CSS to ensure accessibility and ease of use for a wide range of users, including volunteers and donors."
+      ],
+      "links": [
+        {
+          "type": "site",
+          "url": "https://bangonmindanao.pages.dev/"
+        }
+      ],
+      "preview": "23"
+    },
+    {
+      "tags": ["personal", "web"],
+      "id": "haone",
+      "title": "Hall Association One (HAOne)",
+      "subtitle": "Residence Hall Association Management System for UPLB",
+      "dateStart": "April 2026",
+      "technologies": ["webstack-ts", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "gcp"],
+      "points": [
+        "Developed a management platform for handling alumni and current resident data and operations related to student housing.",
+        "Built a real-time financial ledger system supporting water fees, association dues, and miscellaneous transactions, using Google Sheets API for data storage and retrieval.",
+        "Engineered automated PDF receipt and clearance document generation, eliminating manual paperwork and reducing administrative turnaround time.",
+        "Designed and implemented a laundry facility reservation system with real-time availability tracking and Google Calendar integration, reducing scheduling conflicts and improving resource utilization.",
+        "Integrated Gmail API to automate transactional email dispatching for payment receipts, statement of account issuances, and clearance certificates."
+      ],
+      "preview": "22"
+    },
+    {
       "tags": ["academic", "web"],
       "id": "ics-astra",
       "title": "ICS-ASTRA",
