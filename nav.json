@@ -6,9 +6,9 @@
       "label": "Home"
     },
     {
-      "href": "/experience",
+      "href": "/about",
       "icon": "tabler:briefcase",
-      "label": "Experience"
+      "label": "About Me"
     },
     {
       "href": "/projects",
