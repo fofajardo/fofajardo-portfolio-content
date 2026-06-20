@@ -1,35 +1,128 @@
 {
   "technologies": {
-    "javafx": "Java/JavaFX",
-    "javaee": "Java/Jakarta EE",
-    "java": "Java",
-    "php": "PHP",
-    "webstack": "HTML, CSS, JS",
-    "webstack-ts": "HTML, CSS, TypeScript",
-    "nextjs": "React/Next.js",
-    "react": "React",
-    "nodejs": "Node.js",
-    "mongodb": "MongoDB",
-    "mysql": "MySQL",
-    "pwa": "Progressive Web App (PWA)",
-    "python": "Python",
-    "pygame": "Pygame",
-    "csharp": "C#",
-    "mgxna": "MonoGame/XNA",
-    "figma": "Figma",
-    "unity": "Unity",
-    "cpp": "C++",
-    "vite": "Vite",
-    "supabase": "Supabase",
-    "tailwind": "Tailwind CSS",
-    "shadcn": "shadcn/ui",
-    "casl": "CASL",
-    "svelte": "Svelte",
-    "mocha": "Mocha",
-    "chai": "Chai",
-    "digitalocean": "DigitalOcean",
-    "cloudflare-pages": "Cloudflare Pages",
-    "gsheets-api": "Google Sheets API",
-    "gcp": "Google Cloud Platform (GCP)"
+    "javafx": {
+      "name": "Java/JavaFX",
+      "icon": "devicon-plain:java"
+    },
+    "javaee": {
+      "name": "Java/Jakarta EE",
+      "icon": "devicon-plain:java"
+    },
+    "java": {
+      "name": "Java",
+      "icon": "devicon-plain:java"
+    },
+    "php": {
+      "name": "PHP",
+      "icon": "devicon-plain:php"
+    },
+    "webstack": {
+      "name": "HTML, CSS, JS",
+      "icon": "devicon-plain:html5"
+    },
+    "webstack-ts": {
+      "name": "HTML, CSS, TypeScript",
+      "icon": "devicon-plain:typescript"
+    },
+    "nextjs": {
+      "name": "React/Next.js",
+      "icon": "devicon-plain:nextjs"
+    },
+    "react": {
+      "name": "React",
+      "icon": "mdi:react"
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "icon": "mdi:nodejs"
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "icon": "devicon-plain:mongodb"
+    },
+    "mysql": {
+      "name": "MySQL",
+      "icon": "devicon-plain:mysql-wordmark"
+    },
+    "pwa": {
+      "name": "Progressive Web App (PWA)",
+      "icon": "simple-icons:pwa"
+    },
+    "python": {
+      "name": "Python",
+      "icon": "devicon-plain:python"
+    },
+    "pygame": {
+      "name": "Pygame",
+      "icon": "devicon-plain:python"
+    },
+    "csharp": {
+      "name": "C#",
+      "icon": "devicon-plain:csharp"
+    },
+    "mgxna": {
+      "name": "MonoGame/XNA",
+      "icon": "simple-icons:monogame"
+    },
+    "figma": {
+      "name": "Figma",
+      "icon": "devicon-plain:figma"
+    },
+    "unity": {
+      "name": "Unity",
+      "icon": "devicon-plain:unity"
+    },
+    "cpp": {
+      "name": "C++",
+      "icon": "mdi:language-cpp"
+    },
+    "vite": {
+      "name": "Vite",
+      "icon": "devicon-plain:vitejs"
+    },
+    "supabase": {
+      "name": "Supabase",
+      "icon": "devicon-plain:supabase"
+    },
+    "tailwind": {
+      "name": "Tailwind CSS",
+      "icon": "file-icons:tailwind"
+    },
+    "casl": {
+      "name": "CASL",
+      "icon": "mdi:shield-outline"
+    },
+    "svelte": {
+      "name": "Svelte",
+      "icon": "devicon-plain:svelte"
+    },
+    "mocha": {
+      "name": "Mocha",
+      "icon": "devicon-plain:mocha"
+    },
+    "chai": {
+      "name": "Chai",
+      "icon": "file-icons:chai"
+    },
+    "digitalocean": {
+      "name": "DigitalOcean",
+      "icon": "simple-icons:digitalocean"
+    },
+    "cloudflare-pages": {
+      "name": "Cloudflare Pages",
+      "icon": "devicon-plain:cloudflare"
+    },
+    "gsheets-api": {
+      "name": "Google Sheets API",
+      "icon": "simple-icons:googlesheets"
+    },
+    "gcp": {
+      "name": "Google Cloud Platform (GCP)",
+      "icon": "devicon-plain:googlecloud"
+    },
+    "shadcn": {
+      "name": "shadcn/ui",
+      "icon": "bxl:shadcn-ui"
+    }
   }
 }
