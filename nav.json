@@ -2,54 +2,55 @@
   "nav": [
     {
       "href": "/",
-      "icon": "tabler:home",
+      "icon": "line-md:home",
       "label": "Home"
     },
     {
       "href": "/about",
-      "icon": "tabler:briefcase",
+      "icon": "line-md:briefcase",
       "label": "About Me"
     },
     {
       "href": "/projects",
-      "icon": "tabler:git-merge",
+      "icon": "line-md:construction",
       "label": "Projects"
     },
     {
       "href": "mailto:fajardo@duck.com",
-      "icon": "tabler:mail",
+      "icon": "line-md:email",
       "label": "Email"
     },
     {
       "href": "https://facebook.com/fofajardo",
-      "icon": "tabler:brand-facebook",
+      "icon": "line-md:facebook",
       "label": "Facebook"
     },
     {
       "href": "https://twitter.com/fofajardo",
-      "icon": "tabler:brand-twitter",
+      "icon": "line-md:twitter",
       "label": "Twitter",
       "limitTo": "launcher"
     },
     {
       "href": "https://fosstodon.org/@fajardo",
-      "icon": "tabler:brand-mastodon",
+      "icon": "line-md:mastodon",
       "label": "Mastodon"
     },
     {
       "href": "https://linkedin.com/in/fofajardo",
-      "icon": "tabler:brand-linkedin",
+      "icon": "line-md:linkedin",
       "label": "LinkedIn"
     },
     {
       "href": "https://github.com/fofajardo",
-      "icon": "tabler:brand-github",
+      "icon": "line-md:github-loop",
       "label": "GitHub"
     },
     {
       "href": "https://gitlab.com/fofajardo",
       "icon": "tabler:brand-gitlab",
-      "label": "GitLab"
+      "label": "GitLab",
+      "limitTo": "launcher"
     },
     {
       "href": "https://steamcommunity.com/id/frankwilco/",
