@@ -18,44 +18,52 @@
     {
       "href": "mailto:fajardo@duck.com",
       "icon": "line-md:email",
-      "label": "Email"
+      "label": "Email",
+      "rel": "external"
     },
     {
       "href": "https://facebook.com/fofajardo",
       "icon": "line-md:facebook",
-      "label": "Facebook"
+      "label": "Facebook",
+      "rel": "external"
     },
     {
       "href": "https://twitter.com/fofajardo",
       "icon": "line-md:twitter",
       "label": "Twitter",
+      "rel": "external",
       "limitTo": "launcher"
     },
     {
       "href": "https://fosstodon.org/@fajardo",
       "icon": "line-md:mastodon",
-      "label": "Mastodon"
+      "label": "Mastodon",
+      "rel": "external"
     },
     {
       "href": "https://linkedin.com/in/fofajardo",
       "icon": "line-md:linkedin",
-      "label": "LinkedIn"
+      "label": "LinkedIn",
+      "rel": "external"
     },
     {
       "href": "https://github.com/fofajardo",
       "icon": "line-md:github-loop",
-      "label": "GitHub"
+      "label": "GitHub",
+      "rel": "external"
     },
     {
       "href": "https://gitlab.com/fofajardo",
       "icon": "tabler:brand-gitlab",
       "label": "GitLab",
+      "rel": "external",
       "limitTo": "launcher"
     },
     {
       "href": "https://steamcommunity.com/id/frankwilco/",
       "icon": "tabler:brand-steam",
       "label": "Steam",
+      "rel": "external",
       "limitTo": "launcher"
     }
   ]
