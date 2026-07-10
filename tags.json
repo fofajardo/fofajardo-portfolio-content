@@ -218,6 +218,30 @@
       "icon": "devicon-plain:supabase"
     },
     {
+      "id": "dart",
+      "category": "technology",
+      "name": "Dart",
+      "icon": "devicon-plain:dart"
+    },
+    {
+      "id": "flutter",
+      "category": "technology",
+      "name": "Flutter",
+      "icon": "devicon-plain:flutter"
+    },
+    {
+      "id": "firebase",
+      "category": "technology",
+      "name": "Firebase",
+      "icon": "devicon-plain:firebase"
+    },
+    {
+      "id": "openstreetmaps",
+      "category": "technology",
+      "name": "OpenStreetMap",
+      "icon": "simple-icons:openstreetmap"
+    },
+    {
       "id": "tailwind",
       "category": "technology",
       "name": "Tailwind CSS",
