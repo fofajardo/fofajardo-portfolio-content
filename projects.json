@@ -7,7 +7,7 @@
       "subtitle": "Dashboard for tracking the status of donations and relief efforts for the 2026 Mindanao earthquake",
       "dateStart": "June 2026",
       "dateEnd": "",
-      "technologies": ["webstack-ts", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "cloudflare-pages"],
+      "technologies": ["html-css", "typescript", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "cloudflare-pages"],
       "points": [
         "Developed a dashboard to track the status of donations and relief efforts for the 2026 Mindanao earthquake, utilizing the Google Sheets API for data management.",
         "Collaborated with volunteers to gather requirements and ensure the dashboard effectively meets the needs of those involved in the relief efforts.",
@@ -27,7 +27,7 @@
       "title": "Hall Association One (HAOne)",
       "subtitle": "Residence Hall Association Management System for UPLB",
       "dateStart": "April 2026",
-      "technologies": ["webstack-ts", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "gcp"],
+      "technologies": ["html-css", "typescript", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "gcp"],
       "points": [
         "Developed a management platform for handling alumni and current resident data and operations related to student housing.",
         "Built a real-time financial ledger system supporting water fees, association dues, and miscellaneous transactions, using Google Sheets API for data storage and retrieval.",
@@ -44,7 +44,7 @@
       "subtitle": "Alumni System for Tracking Relations and Advancement",
       "dateStart": "March 2025",
       "dateEnd": "May 2025",
-      "technologies": ["webstack-ts", "react", "nodejs", "supabase", "tailwind", "shadcn", "casl", "mocha", "chai", "digitalocean", "pwa"],
+      "technologies": ["html-css", "typescript", "react", "nodejs", "supabase", "tailwind", "shadcn", "casl", "mocha", "chai", "digitalocean", "pwa"],
       "points": [
         "Led a team of 19 students as project manager in developing a comprehensive alumni management system for UPLB ICS, facilitating enhanced tracking of alumni relations and career progression.",
         "Engineered a robust backend using Node.js and Supabase to manage user authentication, data storage, and complex relational queries.",
@@ -152,7 +152,7 @@
       "title": "Project Fresco",
       "subtitle": "JS-based Add-ons Site for XUL Applications",
       "dateStart": "March 2022",
-      "technologies": ["webstack"],
+      "technologies": ["html-css", "javascript"],
       "points": [],
       "preview": "11",
       "previewset": true,
@@ -180,7 +180,7 @@
       "subtitle": "Mini food and establishment review platform",
       "dateStart": "May 2024",
       "dateEnd": "June 2024",
-      "technologies": ["webstack-ts", "react", "vite", "nodejs", "mysql"],
+      "technologies": ["html-css", "typescript", "react", "vite", "nodejs", "mysql"],
       "points": [
         "Implemented core backend logic using Express.js and Node.js, including secure user authentication with Passport.js.",
         "Integrated frontend (Vite + React) with backend APIs to enable dynamic review submission, retrieval, and user session handling.",
@@ -203,7 +203,7 @@
       "subtitle": "Agriculture-oriented, farm-to-table, e-commerce platform",
       "dateStart": "November 2023",
       "dateEnd": "January 2024",
-      "technologies": ["webstack", "react", "nodejs", "mongodb"],
+      "technologies": ["html-css", "javascript", "react", "nodejs", "mongodb"],
       "points": [
         "Led a development team of 4 in building a full-stack e-commerce web application to connect farmers directly with consumers.",
         "Managed the entire development cycle including planning, task distribution, UI/UX coordination, and system integration.",
@@ -233,7 +233,7 @@
       "subtitle": "Quadratic Spline Interpolation, Polynomial Regression, and Simplex Minimization (Diet Problem) solver",
       "dateStart": "December 2023",
       "dateEnd": "",
-      "technologies": ["webstack", "nodejs", "nextjs"],
+      "technologies": ["html-css", "javascript", "nodejs", "nextjs", "react"],
       "points": [
         "Developed a Node.js package for solving various numerical analysis-related problems, using code originally written in R.",
         "Implemented and designed a React/Next.js-based front-end for solving problems involving Quadratic Spline Interpolation (QSI), Polynomial Regression, and Simplex Minimization (diet problem).",
@@ -255,7 +255,7 @@
       "subtitle": "Western-themed Shooting Game",
       "dateStart": "May 2023",
       "dateEnd": "June 2023",
-      "technologies": ["javafx"],
+      "technologies": ["javafx", "java"],
       "points": [
         "Designed and developed a mini ship shooting game with a Western theme, featuring various difficulty modes and power-ups.",
         "Implemented gameplay mechanics, such as high-score functionality, and reused 2D graphics from freely-available sources."
@@ -327,7 +327,7 @@
       "subtitle": "Interactive Front-end for Banana Plantation Pest Management",
       "dateStart": "May 2022",
       "dateEnd": "",
-      "technologies": ["webstack"],
+      "technologies": ["html-css", "javascript"],
       "points": [
         "Developed a mockup front-end that adheres to Microsoft's Fluent Design System for the app and inspired by Microsoft Store's UI, utilizing styles mostly written from scratch.",
         "Submitted as part of the entry for the [Microsoft Imagine Cup Junior 2022](https://imaginecup.microsoft.com/en-us/junior).",
@@ -349,7 +349,7 @@
       "subtitle": "Customizable voting/polling system",
       "dateStart": "February 2022",
       "dateEnd": "March 2022",
-      "technologies": ["javaee", "webstack", "mysql"],
+      "technologies": ["javaee", "java", "html-css", "javascript", "mysql"],
       "points": [
         "Developed and documented a voting or polling system, primarily patterned against the Philippine Elections, that adheres to the model-view-controller (MVC) architecture.",
         "Implemented several features, including a completely configurable source of candidates, positions, political parties, and party lists.",
@@ -371,7 +371,7 @@
       "subtitle": "COVID-19 vaccination and test records platform",
       "dateStart": "November 2021",
       "dateEnd": "",
-      "technologies": ["php", "webstack", "mysql", "pwa"],
+      "technologies": ["php", "html-css", "javascript", "mysql", "pwa"],
       "points": [
         "Developed a system for handling test results and vaccination records, primarily focused on COVID-19, that allowed people to verify the authenticity of these documents.",
         "Integrated many useful features, such as the ability to scan QR codes from vaccination records and test results."
@@ -415,7 +415,7 @@
       "subtitle": "Blog/Content Management System (CMS)",
       "dateStart": "June 2021",
       "dateEnd": "",
-      "technologies": ["php", "webstack"],
+      "technologies": ["php", "html-css", "javascript"],
       "points": [
         "Devised a content management system (CMS) that does not use a traditional database and instead relies on locally stored files for content written in Markdown.",
         "Designed a responsive web site UI for both desktop and mobile platforms."
@@ -430,7 +430,7 @@
       "subtitle": "Learning Management System (LMS)",
       "dateStart": "April 2019",
       "dateEnd": "",
-      "technologies": ["php", "webstack", "mysql"],
+      "technologies": ["php", "html-css", "javascript", "mysql"],
       "points": [
         "Wrote a learning management system (LMS) that features uploaded materials viewing, per-subject classes, social media-like groups, user profiles for students and teachers, and search functionality."
       ],

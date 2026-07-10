@@ -58,13 +58,13 @@
     {
       "id": "javafx",
       "category": "technology",
-      "name": "Java/JavaFX",
+      "name": "JavaFX",
       "icon": "devicon-plain:java"
     },
     {
       "id": "javaee",
       "category": "technology",
-      "name": "Java/Jakarta EE",
+      "name": "Jakarta EE",
       "icon": "devicon-plain:java"
     },
     {
@@ -80,21 +80,27 @@
       "icon": "devicon-plain:php"
     },
     {
-      "id": "webstack",
+      "id": "html-css",
       "category": "technology",
-      "name": "HTML, CSS, JS",
+      "name": "HTML/CSS",
       "icon": "devicon-plain:html5"
     },
     {
-      "id": "webstack-ts",
+      "id": "javascript",
       "category": "technology",
-      "name": "HTML, CSS, TypeScript",
+      "name": "JavaScript",
+      "icon": "devicon-plain:javascript"
+    },
+    {
+      "id": "typescript",
+      "category": "technology",
+      "name": "TypeScript",
       "icon": "devicon-plain:typescript"
     },
     {
       "id": "nextjs",
       "category": "technology",
-      "name": "React/Next.js",
+      "name": "Next.js",
       "icon": "devicon-plain:nextjs"
     },
     {
