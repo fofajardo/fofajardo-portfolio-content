@@ -242,6 +242,12 @@
       "icon": "simple-icons:openstreetmap"
     },
     {
+      "id": "sdl",
+      "category": "technology",
+      "name": "SDL",
+      "icon": "devicon-plain:sdl"
+    },
+    {
       "id": "tailwind",
       "category": "technology",
       "name": "Tailwind CSS",

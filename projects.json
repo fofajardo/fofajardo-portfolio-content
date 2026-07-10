@@ -131,19 +131,36 @@
       ]
     },
     {
-      "tags": ["personal", "games-and-mods"],
+      "tags": ["personal", "packages"],
       "id": "nuvelocity",
       "title": "NuVelocity",
-      "subtitle": "Re-implementation of Reflexive's Velocity Engine",
+      "subtitle": "Re-implementation of Reflexive Entertainment's Velocity Engine",
       "dateStart": "2023-07",
-      "technologies": ["csharp"],
+      "technologies": ["cpp", "sdl"],
       "points": [],
-      "preview": "12",
-      "content": "NuVelocity is a project focused on creating an open-source re-implementation of Reflexive Entertainment's Velocity Engine, known for its role in games like Ricochet. The project has successfully decrypted and re-exported graphics assets from later Reflexive Entertainment games, such as [Ricochet Infinity](https://wiki.ricochetuniverse.com/wiki/Ricochet_Infinity) and [Ricochet HD](https://wiki.ricochetuniverse.com/wiki/Ricochet_HD). The aim is to revive these classic games for modern gamers while fostering a collaborative community of developers and enthusiasts.\n\nThe [NuVelocity Unpacker](https://github.com/frankwilco/NuVelocity.Unpacker/releases/latest) is already released to the public, as well as a list of currently supported games.",
+      "preview": "29",
+      "content": "NuVelocity (NV) is a C++ re-implementation of the Velocity Engine, the proprietary game engine developed by Reflexive Entertainment and used in games such as Ricochet Xtreme (2001). It was built on top of SDL3 and reconstructed through a combination of static and dynamic reverse engineering, including hex-editor analysis of the game's proprietary file formats and behavioral observation of the original executable. The engine reproduces the property management system, plugin architecture, rendering/layering, particle and physics subsystems, and power-up spawning logic of the original, and served as the foundation for a full re-implementation of Ricochet Xtreme itself.\n\nNuVelocity's asset pipeline reverse engineers two proprietary image formats used by the Velocity Engine's cache: standalone \"frame\" files for static images, and \"sequence\" files for animated sprite sheets, texture atlases, and bitmap fonts. Both formats store pixel data using a planar (non-interleaved) RGBA layout with per-channel delta ('Sub' filter-style) encoding prior to DEFLATE compression, and support alternate JPEG-based sub-cases with a separately stored, DEFLATE-compressed alpha channel. It utilizes a [soft fork](https://github.com/NuVelocity/NuVelocity.physfs) of PhysFS to accommodate Reflexive Entertainment's modified ZIP archives, which replace the standard end-of-central-directory signature (`PK`) with `RE`. The project is designed for extensibility, performance, and strong type safety.\n\n#### NuVelocitySharp\n\nNuVelocitySharp was the prior attempt at re-implementing the engine in C#. The project has successfully decrypted and re-exported graphics assets from later Reflexive Entertainment games, such as [Ricochet Infinity](https://wiki.ricochetuniverse.com/wiki/Ricochet_Infinity) and [Ricochet HD](https://wiki.ricochetuniverse.com/wiki/Ricochet_HD). The aim is to revive these classic games for modern gamers while fostering a collaborative community of developers and enthusiasts.\n\nThe [NuVelocity Unpacker](https://github.com/frankwilco/NuVelocity.Unpacker/releases/latest), released in 2023, converts \"frame\" and \"sequence\" files back into TGA images and reconstructs their corresponding property files, and has been used to validate the recovered file format specification. It is already released to the public, along with a list of currently supported games.",
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/frankwilco/NuVelocity"
+          "url": "https://github.com/NuVelocity/NuVelocity"
+        }
+      ]
+    },
+    {
+      "tags": ["personal", "games-and-mods"],
+      "id": "freers42",
+      "title": "FreeRS42",
+      "subtitle": "Modern C++ re-implementation of Ricochet Xtreme",
+      "dateStart": "2026-01",
+      "technologies": ["cpp", "sdl"],
+      "points": [],
+      "preview": "28",
+      "content": "FreeRS42 is a modern C++ re-implementation of Ricochet Xtreme, originally developed by Reflexive Entertainment. Built on the NuVelocity engine, it aims to recreate the classic brick-breaking gameplay with modern code, accuracy, and performance.\n\nIt features a modular, type-safe C++ codebase, CMake configuration, and extensibility for custom mods and enhancements.",
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/NuVelocity/FRS42"
         }
       ]
     },
@@ -509,7 +526,6 @@
       "title": "Maquina",
       "subtitle": "2D game engine built on top of MonoGame in C#",
       "dateStart": "2018-04",
-      "dateEnd": "",
       "technologies": ["csharp", "mgxna"],
       "points": [],
       "preview": "24",
