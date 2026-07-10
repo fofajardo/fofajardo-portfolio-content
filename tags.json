@@ -21,7 +21,7 @@
       "name": "Invited Talks and Presentations"
     },
     {
-      "id": "all-projects",
+      "id": "all",
       "category": "project",
       "name": "All"
     },
@@ -54,6 +54,192 @@
       "id": "hci-ux",
       "category": "project",
       "name": "HCI/UX"
+    },
+    {
+      "id": "javafx",
+      "category": "technology",
+      "name": "Java/JavaFX",
+      "icon": "devicon-plain:java"
+    },
+    {
+      "id": "javaee",
+      "category": "technology",
+      "name": "Java/Jakarta EE",
+      "icon": "devicon-plain:java"
+    },
+    {
+      "id": "java",
+      "category": "technology",
+      "name": "Java",
+      "icon": "devicon-plain:java"
+    },
+    {
+      "id": "php",
+      "category": "technology",
+      "name": "PHP",
+      "icon": "devicon-plain:php"
+    },
+    {
+      "id": "webstack",
+      "category": "technology",
+      "name": "HTML, CSS, JS",
+      "icon": "devicon-plain:html5"
+    },
+    {
+      "id": "webstack-ts",
+      "category": "technology",
+      "name": "HTML, CSS, TypeScript",
+      "icon": "devicon-plain:typescript"
+    },
+    {
+      "id": "nextjs",
+      "category": "technology",
+      "name": "React/Next.js",
+      "icon": "devicon-plain:nextjs"
+    },
+    {
+      "id": "react",
+      "category": "technology",
+      "name": "React",
+      "icon": "mdi:react"
+    },
+    {
+      "id": "nodejs",
+      "category": "technology",
+      "name": "Node.js",
+      "icon": "mdi:nodejs"
+    },
+    {
+      "id": "mongodb",
+      "category": "technology",
+      "name": "MongoDB",
+      "icon": "devicon-plain:mongodb"
+    },
+    {
+      "id": "mysql",
+      "category": "technology",
+      "name": "MySQL",
+      "icon": "devicon-plain:mysql-wordmark"
+    },
+    {
+      "id": "pwa",
+      "category": "technology",
+      "name": "Progressive Web App (PWA)",
+      "icon": "simple-icons:pwa"
+    },
+    {
+      "id": "python",
+      "category": "technology",
+      "name": "Python",
+      "icon": "devicon-plain:python"
+    },
+    {
+      "id": "pygame",
+      "category": "technology",
+      "name": "Pygame",
+      "icon": "devicon-plain:python"
+    },
+    {
+      "id": "csharp",
+      "category": "technology",
+      "name": "C#",
+      "icon": "devicon-plain:csharp"
+    },
+    {
+      "id": "mgxna",
+      "category": "technology",
+      "name": "MonoGame/XNA",
+      "icon": "simple-icons:monogame"
+    },
+    {
+      "id": "figma",
+      "category": "technology",
+      "name": "Figma",
+      "icon": "devicon-plain:figma"
+    },
+    {
+      "id": "unity",
+      "category": "technology",
+      "name": "Unity",
+      "icon": "devicon-plain:unity"
+    },
+    {
+      "id": "cpp",
+      "category": "technology",
+      "name": "C++",
+      "icon": "mdi:language-cpp"
+    },
+    {
+      "id": "vite",
+      "category": "technology",
+      "name": "Vite",
+      "icon": "devicon-plain:vitejs"
+    },
+    {
+      "id": "supabase",
+      "category": "technology",
+      "name": "Supabase",
+      "icon": "devicon-plain:supabase"
+    },
+    {
+      "id": "tailwind",
+      "category": "technology",
+      "name": "Tailwind CSS",
+      "icon": "file-icons:tailwind"
+    },
+    {
+      "id": "casl",
+      "category": "technology",
+      "name": "CASL",
+      "icon": "mdi:shield-outline"
+    },
+    {
+      "id": "svelte",
+      "category": "technology",
+      "name": "Svelte",
+      "icon": "devicon-plain:svelte"
+    },
+    {
+      "id": "mocha",
+      "category": "technology",
+      "name": "Mocha",
+      "icon": "devicon-plain:mocha"
+    },
+    {
+      "id": "chai",
+      "category": "technology",
+      "name": "Chai",
+      "icon": "file-icons:chai"
+    },
+    {
+      "id": "digitalocean",
+      "category": "technology",
+      "name": "DigitalOcean",
+      "icon": "simple-icons:digitalocean"
+    },
+    {
+      "id": "cloudflare-pages",
+      "category": "technology",
+      "name": "Cloudflare Pages",
+      "icon": "devicon-plain:cloudflare"
+    },
+    {
+      "id": "gsheets-api",
+      "category": "technology",
+      "name": "Google Sheets API",
+      "icon": "simple-icons:googlesheets"
+    },
+    {
+      "id": "gcp",
+      "category": "technology",
+      "name": "Google Cloud Platform (GCP)",
+      "icon": "devicon-plain:googlecloud"
+    },
+    {
+      "id": "shadcn",
+      "category": "technology",
+      "name": "shadcn/ui",
+      "icon": "bxl:shadcn-ui"
     }
   ]
 }
