@@ -99,6 +99,7 @@
       "subtitle": "Modified and updated version of Realtek RTL8851BU Wi-Fi USB Driver for Linux",
       "directUrl": "https://github.com/fofajardo/rtl8851bu",
       "dateStart": "2024-11",
+      "technologies": ["c", "linux"],
       "points": [],
       "preview": "16"
     },
@@ -107,10 +108,21 @@
       "id": "psgc-areas",
       "title": "PSGC Areas",
       "subtitle": "NPM package that provides a JS interface to access the Philippine Standard Geographic Code (PSGC) data",
-      "directUrl": "https://github.com/fofajardo/psgc-areas",
       "dateStart": "2024-05",
+      "technologies": ["javascript", "nodejs", "npm"],
       "points": [],
-      "preview": "17"
+      "preview": "17",
+      "content": "This package provides an interface to access the Philippine Standard Geographic Code (PSGC) data. The PSGC is a systematic classification and coding of geographic areas in the Philippines, essential for various government and private sector activities such as statistical analysis, geographic information systems (GIS), and more.\n\n#### Features\n- Retrieve PSGC codes and descriptions.\n- Access hierarchical and flat list representations of geographic areas.\n- Efficient and easy-to-use API for integrating PSGC data into applications.\n\n#### Installation\nTo install the package, use `npm` or your package manager of choice (e.g., `pnpm`):\n\n```bash\nnpm install psgc-areas\n```",
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/fofajardo/psgc-areas"
+        },
+        {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/psgc-areas"
+        }
+      ]
     },
     {
       "tags": ["personal", "games-and-mods"],
