@@ -138,6 +138,12 @@
       "icon": "simple-icons:pwa"
     },
     {
+      "id": "npm",
+      "category": "technology",
+      "name": "NPM",
+      "icon": "simple-icons:npm"
+    },
+    {
       "id": "python",
       "category": "technology",
       "name": "Python",
@@ -175,10 +181,23 @@
       "hideSkill": true
     },
     {
+      "id": "c",
+      "category": "technology",
+      "name": "C",
+      "icon": "devicon-plain:c"
+    },
+    {
       "id": "cpp",
       "category": "technology",
       "name": "C++",
-      "icon": "mdi:language-cpp"
+      "icon": "devicon-plain:cplusplus"
+    },
+    {
+      "id": "linux",
+      "category": "technology",
+      "name": "Linux",
+      "icon": "devicon-plain:linux",
+      "hideSkill": true
     },
     {
       "id": "vite",
