@@ -10,6 +10,9 @@ tags:
   - web-performance
   - api-design
 ogImage: /blog-content/amis-is-still-slow/preview.png
+discuss:
+  reddit: "https://www.reddit.com/r/peyups/comments/1uscu8i/uplb_the_road_to_patience_why_amis_is_still_slow/"
+  mastodon: "https://fosstodon.org/@fajardo/116883329929032145"
 ---
 <script lang="ts">
   import Figure from "$lib/Figure.svelte";
