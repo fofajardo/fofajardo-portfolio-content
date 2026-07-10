@@ -181,9 +181,128 @@
     },
     {
       "id": "figma",
-      "category": "technology",
+      "category": "graphic-design",
       "name": "Figma",
       "icon": "devicon-plain:figma"
+    },
+    {
+      "id": "git",
+      "category": "tool",
+      "name": "Git",
+      "icon": "devicon-plain:git",
+      "hideLink": true
+    },
+    {
+      "id": "notepadpp",
+      "category": "tool",
+      "name": "Notepad++",
+      "icon": "simple-icons:notepadplusplus",
+      "hideLink": true
+    },
+    {
+      "id": "rclone",
+      "category": "tool",
+      "name": "rclone",
+      "icon": "simple-icons:rclone",
+      "hideLink": true
+    },
+    {
+      "id": "vim",
+      "category": "tool",
+      "name": "Vim",
+      "icon": "devicon-plain:vim",
+      "hideLink": true
+    },
+    {
+      "id": "vmwareworkstation",
+      "category": "tool",
+      "name": "VMware Workstation",
+      "icon": "lineicons:vmware",
+      "hideLink": true
+    },
+    {
+      "id": "virtualbox",
+      "category": "tool",
+      "name": "VirtualBox",
+      "icon": "simple-icons:virtualbox",
+      "hideLink": true
+    },
+    {
+      "id": "android-studio",
+      "category": "ide",
+      "name": "Android Studio",
+      "icon": "devicon-plain:androidstudio",
+      "hideLink": true
+    },
+    {
+      "id": "eclipse",
+      "category": "ide",
+      "name": "Eclipse",
+      "icon": "devicon-plain:eclipse",
+      "hideLink": true
+    },
+    {
+      "id": "intellij",
+      "category": "ide",
+      "name": "IntelliJ IDEA",
+      "icon": "devicon-plain:intellij",
+      "hideLink": true
+    },
+    {
+      "id": "visualstudio",
+      "category": "ide",
+      "name": "Visual Studio",
+      "icon": "devicon-plain:visualstudio",
+      "hideLink": true
+    },
+    {
+      "id": "photoshop",
+      "category": "graphic-design",
+      "name": "Adobe Photoshop",
+      "icon": "devicon-plain:photoshop",
+      "hideLink": true
+    },
+    {
+      "id": "premiere",
+      "category": "graphic-design",
+      "name": "Adobe Premiere Pro",
+      "icon": "devicon-plain:premierepro",
+      "hideLink": true
+    },
+    {
+      "id": "aftereffects",
+      "category": "graphic-design",
+      "name": "Adobe After Effects",
+      "icon": "devicon-plain:aftereffects",
+      "hideLink": true
+    },
+    {
+      "id": "gimp",
+      "category": "graphic-design",
+      "name": "GIMP",
+      "icon": "devicon-plain:gimp",
+      "hideLink": true
+    },
+    {
+      "id": "inkscape",
+      "category": "graphic-design",
+      "name": "Inkscape",
+      "icon": "devicon-plain:inkscape",
+      "hideLink": true
+    },
+    {
+      "id": "canva",
+      "category": "graphic-design",
+      "name": "Canva",
+      "icon": "simple-icons:canva",
+      "hideLink": true
+    },
+    {
+      "id": "obs",
+      "category": "graphic-design",
+      "name": "OBS Studio",
+      "icon": "streamline-logos:obs-studio-logo-solid",
+      "hideLink": true
     },
     {
       "id": "unity",
