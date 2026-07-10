@@ -6,7 +6,6 @@
       "title": "Bangon Mindanao Network Dashboard",
       "subtitle": "Dashboard for tracking the status of donations and relief efforts for the 2026 Mindanao earthquake",
       "dateStart": "2026-06",
-      "dateEnd": "",
       "technologies": ["html-css", "typescript", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "cloudflare-pages", "gcp"],
       "points": [
         "Developed a dashboard to track the status of donations and relief efforts for the 2026 Mindanao earthquake, utilizing the Google Sheets API for data management.",
@@ -526,6 +525,7 @@
       "title": "Maquina",
       "subtitle": "2D game engine built on top of MonoGame in C#",
       "dateStart": "2018-04",
+      "dateEnd": "",
       "technologies": ["csharp", "mgxna"],
       "points": [],
       "preview": "24",
