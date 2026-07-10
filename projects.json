@@ -44,7 +44,7 @@
       "subtitle": "Alumni System for Tracking Relations and Advancement",
       "dateStart": "March 2025",
       "dateEnd": "May 2025",
-      "technologies": ["html-css", "typescript", "react", "nodejs", "supabase", "tailwind", "shadcn", "casl", "mocha", "chai", "digitalocean", "pwa"],
+      "technologies": ["html-css", "typescript", "react", "nextjs", "nodejs", "supabase", "tailwind", "shadcn", "casl", "mocha", "chai", "digitalocean", "pwa"],
       "points": [
         "Led a team of 19 students as project manager in developing a comprehensive alumni management system for UPLB ICS, facilitating enhanced tracking of alumni relations and career progression.",
         "Engineered a robust backend using Node.js and Supabase to manage user authentication, data storage, and complex relational queries.",
