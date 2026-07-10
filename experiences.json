@@ -4,16 +4,16 @@
       "tags": ["education"],
       "title": "Bachelor of Science in Computer Science",
       "organization": "University of the Philippines Los Baños",
-      "dateStart": "September 2022",
-      "dateEnd": "July 2026",
+      "dateStart": "2022-09",
+      "dateEnd": "2026-07",
       "description": "Member of the Honor Society of the Philippines"
     },
     {
       "tags": ["professional"],
       "title": "Unified XUL Platform Contributor/C++ Developer/Add-ons Team Member/Project Intern",
       "organization": "MCP",
-      "dateStart": "April 2022",
-      "dateEnd": "June 2025",
+      "dateStart": "2022-04",
+      "dateEnd": "2025-06",
       "points": [
         "Adapted and ported JS and CSS web features from Firefox, enhancing compatibility and functionality, which significantly improved cross-browser performance and user satisfaction.",
         "Developed a custom implementation of a CSS selector from scratch, effectively resolving display issues encountered by end-users across multiple websites, leading to a more consistent user experience.",
@@ -32,8 +32,8 @@
       "tags": ["volunteering"],
       "title": "Director for Marketing and Promotions",
       "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
-      "dateStart": "November 2021",
-      "dateEnd": "August 2022",
+      "dateStart": "2021-11",
+      "dateEnd": "2022-08",
       "points": [
         "Led the marketing and promotions team and made sure the publication materials are completed on time.",
         "Designed posters and created audiovisual presentations for events and related organization activities.",
@@ -51,15 +51,15 @@
       "tags": ["volunteering"],
       "title": "Chairperson",
       "organization": "UPLB Alliance of Dormitory Associations",
-      "dateStart": "August 2025",
-      "dateEnd": "July 2026"
+      "dateStart": "2025-08",
+      "dateEnd": "2026-07"
     },
     {
       "tags": ["volunteering"],
       "title": "President",
       "organization": "UPLB ATI-NTC Residence Hall Association",
-      "dateStart": "September 2023",
-      "dateEnd": "July 2026",
+      "dateStart": "2023-09",
+      "dateEnd": "2026-07",
       "points": [
         "Partnered with residents and association officers to plan and execute engaging community events and projects.",
         "Facilitated communication and coordination to address residents' concerns regarding their experiences in the dormitory with the dormitory manager, the Office of Student Housing, the UPLB Alliance of Dormitory Associations, and the UPLB University Student Council.",
@@ -73,7 +73,7 @@
       "tags": ["talks"],
       "title": "Git Branching and Collaboration",
       "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
-      "dateStart": "January 2025",
+      "dateStart": "2025-01",
       "dateEnd": "",
       "description": "Fundamentals of Git version control. Essential Git terminology and commands. Practical Git workflow including setup, repository management, branching, and collaboration. Overview of Git hosting, tools, and authentication.",
       "links": [
@@ -87,8 +87,8 @@
       "tags": ["talks"],
       "title": "SURINet: Suriin, Unawain, and Realize the Internet",
       "organization": "National Service Training Program (NSTP) - Los Baños National High School, Grade 9 Class",
-      "dateStart": "November 2024",
-      "dateEnd": "December 2024",
+      "dateStart": "2024-11",
+      "dateEnd": "2024-12",
       "description": "Online privacy and security. Risks of oversharing information. Digital footprint management. Strong passwords and Two-Factor Authentication (2FA). Responsible social media use."
     }
   ]

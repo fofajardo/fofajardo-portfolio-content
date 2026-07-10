@@ -5,7 +5,7 @@
       "id": "bangon-mindanao-network-dashboard",
       "title": "Bangon Mindanao Network Dashboard",
       "subtitle": "Dashboard for tracking the status of donations and relief efforts for the 2026 Mindanao earthquake",
-      "dateStart": "June 2026",
+      "dateStart": "2026-06",
       "dateEnd": "",
       "technologies": ["html-css", "typescript", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "cloudflare-pages"],
       "points": [
@@ -26,7 +26,7 @@
       "id": "haone",
       "title": "Hall Association One (HAOne)",
       "subtitle": "Residence Hall Association Management System for UPLB",
-      "dateStart": "April 2026",
+      "dateStart": "2026-04",
       "technologies": ["html-css", "typescript", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "gcp"],
       "points": [
         "Developed a management platform for handling alumni and current resident data and operations related to student housing.",
@@ -42,8 +42,8 @@
       "id": "ics-astra",
       "title": "ICS-ASTRA",
       "subtitle": "Alumni System for Tracking Relations and Advancement",
-      "dateStart": "March 2025",
-      "dateEnd": "May 2025",
+      "dateStart": "2025-03",
+      "dateEnd": "2025-05",
       "technologies": ["html-css", "typescript", "react", "nextjs", "nodejs", "supabase", "tailwind", "shadcn", "casl", "mocha", "chai", "digitalocean", "pwa"],
       "points": [
         "Led a team of 19 students as project manager in developing a comprehensive alumni management system for UPLB ICS, facilitating enhanced tracking of alumni relations and career progression.",
@@ -67,8 +67,8 @@
       "id": "pathfinder-chronicles",
       "title": "Pathfinder Chronicles",
       "subtitle": "Gamified Walking RPG",
-      "dateStart": "February 2025",
-      "dateEnd": "May 2025",
+      "dateStart": "2025-02",
+      "dateEnd": "2025-05",
       "technologies": ["figma"],
       "points": [
         "Conducted semi-structured interviews with five participants to investigate sedentary behaviors and campus walking habits.",
@@ -98,7 +98,7 @@
       "title": "rtl8851bu",
       "subtitle": "Modified and updated version of Realtek RTL8851BU Wi-Fi USB Driver for Linux",
       "directUrl": "https://github.com/fofajardo/rtl8851bu",
-      "dateStart": "November 2024",
+      "dateStart": "2024-11",
       "points": [],
       "preview": "16"
     },
@@ -108,7 +108,7 @@
       "title": "PSGC Areas",
       "subtitle": "NPM package that provides a JS interface to access the Philippine Standard Geographic Code (PSGC) data",
       "directUrl": "https://github.com/fofajardo/psgc-areas",
-      "dateStart": "May 2024",
+      "dateStart": "2024-05",
       "points": [],
       "preview": "17"
     },
@@ -117,7 +117,7 @@
       "id": "nuvelocity",
       "title": "NuVelocity",
       "subtitle": "Re-implementation of Reflexive's Velocity Engine",
-      "dateStart": "July 2023",
+      "dateStart": "2023-07",
       "technologies": ["csharp"],
       "points": [],
       "preview": "12",
@@ -134,7 +134,7 @@
       "id": "rimworld-custommodsfolders",
       "title": "Custom Mods Folders for RimWorld",
       "subtitle": "Alternative Mod Loader",
-      "dateStart": "January 2023",
+      "dateStart": "2023-01",
       "technologies": ["csharp", "unity"],
       "points": [],
       "preview": "13",
@@ -151,7 +151,7 @@
       "id": "projectfresco",
       "title": "Project Fresco",
       "subtitle": "JS-based Add-ons Site for XUL Applications",
-      "dateStart": "March 2022",
+      "dateStart": "2022-03",
       "technologies": ["html-css", "javascript"],
       "points": [],
       "preview": "11",
@@ -170,7 +170,7 @@
       "title": "Add-ons for UXP Applications",
       "subtitle": "Extensions and Themes for Various Purposes",
       "directUrl": "https://projectfresco.github.io/addons/?user=franklindm",
-      "dateStart": "December 2016",
+      "dateStart": "2016-12",
       "preview": "14"
     },
     {
@@ -178,8 +178,8 @@
       "id": "food-review",
       "title": "Food Review",
       "subtitle": "Mini food and establishment review platform",
-      "dateStart": "May 2024",
-      "dateEnd": "June 2024",
+      "dateStart": "2024-05",
+      "dateEnd": "2024-06",
       "technologies": ["html-css", "typescript", "react", "vite", "nodejs", "mysql"],
       "points": [
         "Implemented core backend logic using Express.js and Node.js, including secure user authentication with Passport.js.",
@@ -201,8 +201,8 @@
       "id": "e-mbakan",
       "title": "E-mbakan",
       "subtitle": "Agriculture-oriented, farm-to-table, e-commerce platform",
-      "dateStart": "November 2023",
-      "dateEnd": "January 2024",
+      "dateStart": "2023-11",
+      "dateEnd": "2024-01",
       "technologies": ["html-css", "javascript", "react", "nodejs", "mongodb"],
       "points": [
         "Led a development team of 4 in building a full-stack e-commerce web application to connect farmers directly with consumers.",
@@ -231,7 +231,7 @@
       "id": "numinous-solver",
       "title": "Numinous Solver",
       "subtitle": "Quadratic Spline Interpolation, Polynomial Regression, and Simplex Minimization (Diet Problem) solver",
-      "dateStart": "December 2023",
+      "dateStart": "2023-12",
       "dateEnd": "",
       "technologies": ["html-css", "javascript", "nodejs", "nextjs", "react"],
       "points": [
@@ -253,8 +253,8 @@
       "id": "deadwoodjustice",
       "title": "Deadwood Justice",
       "subtitle": "Western-themed Shooting Game",
-      "dateStart": "May 2023",
-      "dateEnd": "June 2023",
+      "dateStart": "2023-05",
+      "dateEnd": "2023-06",
       "technologies": ["javafx", "java"],
       "points": [
         "Designed and developed a mini ship shooting game with a Western theme, featuring various difficulty modes and power-ups.",
@@ -274,7 +274,7 @@
       "id": "sts-doms",
       "title": "Dormitory Online Monitoring System",
       "subtitle": "Mobile App for UPLB Dormitory Transactions",
-      "dateStart": "December 2022",
+      "dateStart": "2022-12",
       "dateEnd": "",
       "technologies": ["figma"],
       "points": [
@@ -297,8 +297,8 @@
       "id": "dikta",
       "title": "Dikta",
       "subtitle": "Investigative Point and Click Adventure Game",
-      "dateStart": "May 2022",
-      "dateEnd": "June 2022",
+      "dateStart": "2022-05",
+      "dateEnd": "2022-06",
       "technologies": ["python", "pygame"],
       "points": [
         "Planned the game's concept and mechanics, from the main story to the branching interview mini-games.",
@@ -325,7 +325,7 @@
       "id": "agrikulturam",
       "title": "AgrikultuRAM",
       "subtitle": "Interactive Front-end for Banana Plantation Pest Management",
-      "dateStart": "May 2022",
+      "dateStart": "2022-05",
       "dateEnd": "",
       "technologies": ["html-css", "javascript"],
       "points": [
@@ -347,8 +347,8 @@
       "id": "elections",
       "title": "Halal (aka Project Elections)",
       "subtitle": "Customizable voting/polling system",
-      "dateStart": "February 2022",
-      "dateEnd": "March 2022",
+      "dateStart": "2022-02",
+      "dateEnd": "2022-03",
       "technologies": ["javaee", "java", "html-css", "javascript", "mysql"],
       "points": [
         "Developed and documented a voting or polling system, primarily patterned against the Philippine Elections, that adheres to the model-view-controller (MVC) architecture.",
@@ -369,7 +369,7 @@
       "id": "kodatos",
       "title": "KoDatos",
       "subtitle": "COVID-19 vaccination and test records platform",
-      "dateStart": "November 2021",
+      "dateStart": "2021-11",
       "dateEnd": "",
       "technologies": ["php", "html-css", "javascript", "mysql", "pwa"],
       "points": [
@@ -391,8 +391,8 @@
       "id": "pacificliberty",
       "title": "Pacific Liberty",
       "subtitle": "Interactive Fiction Computer Game",
-      "dateStart": "May 2021",
-      "dateEnd": "June 2021",
+      "dateStart": "2021-05",
+      "dateEnd": "2021-06",
       "technologies": ["java"],
       "points": [
         "Wrote a text-based interactive fiction computer game with a team, similar to the popular computer games of the late 70s like [Zork](https://en.wikipedia.org/wiki/Zork).",
@@ -413,7 +413,7 @@
       "id": "yakan",
       "title": "Yakan",
       "subtitle": "Blog/Content Management System (CMS)",
-      "dateStart": "June 2021",
+      "dateStart": "2021-06",
       "dateEnd": "",
       "technologies": ["php", "html-css", "javascript"],
       "points": [
@@ -428,7 +428,7 @@
       "id": "fortschritt",
       "title": "Fortschritt",
       "subtitle": "Learning Management System (LMS)",
-      "dateStart": "April 2019",
+      "dateStart": "2019-04",
       "dateEnd": "",
       "technologies": ["php", "html-css", "javascript", "mysql"],
       "points": [
@@ -448,7 +448,7 @@
       "id": "getsaved",
       "title": "Get Saved",
       "subtitle": "Video Game Prototype for Disaster Preparedness Education",
-      "dateStart": "September 2018",
+      "dateStart": "2018-09",
       "dateEnd": "",
       "technologies": ["csharp", "mgxna"],
       "points": [
