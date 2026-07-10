@@ -167,7 +167,8 @@
       "id": "unity",
       "category": "technology",
       "name": "Unity",
-      "icon": "devicon-plain:unity"
+      "icon": "devicon-plain:unity",
+      "hideSkill": true
     },
     {
       "id": "cpp",
