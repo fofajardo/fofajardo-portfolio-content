@@ -30,25 +30,6 @@
     },
     {
       "tags": ["volunteering"],
-      "title": "Director for Marketing and Promotions",
-      "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
-      "dateStart": "2021-11",
-      "dateEnd": "2022-08",
-      "points": [
-        "Led the marketing and promotions team and made sure the publication materials are completed on time.",
-        "Designed posters and created audiovisual presentations for events and related organization activities.",
-        "Assisted and guided team members with questions that they may have about the publication materials.",
-        "Managed the social media pages of the organization on different platforms."
-      ],
-      "links": [
-        {
-          "label": "View AVPs",
-          "url": "https://www.youtube.com/@fofajardo/search?query=AVP"
-        }
-      ]
-    },
-    {
-      "tags": ["volunteering"],
       "title": "Chairperson",
       "organization": "UPLB Alliance of Dormitory Associations",
       "dateStart": "2025-08",
@@ -67,6 +48,25 @@
         "Deployed a Windows-based print server, significantly improving printing accessibility and efficiency for residents.",
         "Designed posters and promotional materials, resulting in increased event attendance and participation from both residents and non-residents.",
         "Managed social media platforms and handled livestreaming for gaming and social events, fostering online community engagement."
+      ]
+    },
+    {
+      "tags": ["volunteering"],
+      "title": "Director for Marketing and Promotions",
+      "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
+      "dateStart": "2021-11",
+      "dateEnd": "2022-08",
+      "points": [
+        "Led the marketing and promotions team and made sure the publication materials are completed on time.",
+        "Designed posters and created audiovisual presentations for events and related organization activities.",
+        "Assisted and guided team members with questions that they may have about the publication materials.",
+        "Managed the social media pages of the organization on different platforms."
+      ],
+      "links": [
+        {
+          "label": "View AVPs",
+          "url": "https://www.youtube.com/@fofajardo/search?query=AVP"
+        }
       ]
     },
     {
