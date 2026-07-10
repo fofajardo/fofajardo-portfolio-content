@@ -25,6 +25,12 @@
       "icon": "tabler:message"
     },
     {
+      "id": "competitions",
+      "category": "experience",
+      "name": "Hackathons and Competitions",
+      "icon": "tabler:binary"
+    },
+    {
       "id": "all",
       "category": "project",
       "name": "All"

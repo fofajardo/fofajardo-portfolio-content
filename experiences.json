@@ -90,6 +90,40 @@
       "dateStart": "2024-11",
       "dateEnd": "2024-12",
       "description": "Online privacy and security. Risks of oversharing information. Digital footprint management. Strong passwords and Two-Factor Authentication (2FA). Responsible social media use."
+    },
+    {
+      "tags": ["competitions"],
+      "title": "Finalist",
+      "organization": "Team JustEASE, Startup QC Squad 3, University of the Philippines Los Baños",
+      "dateStart": "2026-06"
+    },
+    {
+      "tags": ["competitions"],
+      "title": "Participant",
+      "organization": "Team Lambda Complex/DXP, AppCon 2024, University of the Philippines Los Baños",
+      "dateStart": "2024-12",
+      "dateEnd": "2025-04"
+    },
+    {
+      "tags": ["competitions"],
+      "title": "3rd Place",
+      "organization": "Team Leche Clan, Get 1/4! Ready Player Code YSES, University of the Philippines Los Baños",
+      "dateStart": "2023-05",
+      "dateEnd": ""
+    },
+    {
+      "tags": ["competitions"],
+      "title": "Team Presenter",
+      "organization": "Team AgrikultuRAM, Microsoft Imagine Cup Junior 2022, Asia Pacific College",
+      "dateStart": "2022-05",
+      "dateEnd": ""
+    },
+    {
+      "tags": ["competitions"],
+      "title": "3rd Place",
+      "organization": "Team KoDatos, Entrepreneurship Fest 2021, Asia Pacific College",
+      "dateStart": "2021-11",
+      "dateEnd": ""
     }
   ]
 }
