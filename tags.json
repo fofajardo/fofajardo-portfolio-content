@@ -162,6 +162,12 @@
       "icon": "devicon-plain:csharp"
     },
     {
+      "id": "wpf",
+      "category": "technology",
+      "name": "WPF",
+      "icon": "tabler:brand-windows-filled"
+    },
+    {
       "id": "mgxna",
       "category": "technology",
       "name": "MonoGame/XNA",
