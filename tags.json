@@ -3,22 +3,26 @@
     {
       "id": "education",
       "category": "experience",
-      "name": "Education"
+      "name": "Education",
+      "icon": "tabler:school"
     },
     {
       "id": "professional",
       "category": "experience",
-      "name": "Professional"
+      "name": "Professional",
+      "icon": "tabler:briefcase"
     },
     {
       "id": "volunteering",
       "category": "experience",
-      "name": "Volunteering"
+      "name": "Volunteering",
+      "icon": "tabler:box"
     },
     {
       "id": "talks",
       "category": "experience",
-      "name": "Invited Talks and Presentations"
+      "name": "Invited Talks and Presentations",
+      "icon": "tabler:message"
     },
     {
       "id": "all",
