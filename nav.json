@@ -21,11 +21,6 @@
       "label": "Blog"
     },
     {
-      "href": "/resume",
-      "icon": "line-md:document-list",
-      "label": "Résumé"
-    },
-    {
       "href": "mailto:fajardo@duck.com",
       "icon": "line-md:email",
       "label": "Email",
