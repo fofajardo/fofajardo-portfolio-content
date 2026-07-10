@@ -335,6 +335,25 @@
     },
     {
       "tags": ["academic", "games-and-mods"],
+      "id": "blackjack-lite",
+      "title": "Blackjack Lite",
+      "subtitle": "Simple text-based implementation of the classic blackjack card game in Python",
+      "dateStart": "2022-12",
+      "dateEnd": "",
+      "technologies": ["python"],
+      "points": [],
+      "preview": "27",
+      "previewset": true,
+      "content": "A simple text-based implementation of the classic blackjack card game in Python.\n\nIt features a lightweight console interface using ASCII escape sequences for colors, standard blackjack rules, and a high score leaderboard system. Developed as the final laboratory project in CMSC 12 at UPLB.",
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/fofajardo/cmsc12-blackjack-lite"
+        }
+      ]
+    },
+    {
+      "tags": ["academic", "games-and-mods"],
       "id": "dikta",
       "title": "Dikta",
       "subtitle": "Investigative Point and Click Adventure Game",
