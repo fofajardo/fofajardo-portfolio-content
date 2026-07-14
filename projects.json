@@ -26,7 +26,7 @@
       "title": "Hall Association One (HAOne)",
       "subtitle": "Residence Hall Association Management System for UPLB",
       "dateStart": "2026-04",
-      "technologies": ["html-css", "typescript", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "gcp"],
+      "technologies": ["html-css", "typescript", "svelte", "nodejs", "gsheets-api", "tailwind", "shadcn", "gcp", "pwa"],
       "points": [
         "Developed a management platform for handling alumni and current resident data and operations related to student housing.",
         "Built a real-time financial ledger system supporting water fees, association dues, and miscellaneous transactions, using Google Sheets API for data storage and retrieval.",
