@@ -55,7 +55,7 @@ This is where it gets interesting. I lined up the total time spent on actual req
 
 Every single CORS-enabled session wasted somewhere between 37% and 96% on top of its actual request time, just to ask permission to make the request it was about to make anyway. On average, preflight added **70% more time** than the request it was gating. In the worst case, the preflight request was basically a second full request based on the time spent.
 
-During peak usage (excluding Session 1), with CORS enabled, **fully loading the enlistment module takes at best, one (1) minute, and at worst, three (3) minutes**. This does not account for other factors (e.g., differences in internet providers).
+During peak usage (excluding Session 1), with CORS enabled, **fully loading the enlistment module takes at best, one (1) minute, and at worst, three (3) minutes**. This does not account for other factors (e.g., differences in internet service providers).
 
 Again, every preflight response came back with `Access-Control-Max-Age: 0`. This explicitly tells the browser to never cache the decision.
 
