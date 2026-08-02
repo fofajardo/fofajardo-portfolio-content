@@ -171,4 +171,6 @@ None of the issues discussed above require additional server capacity or a full 
 
 To all future and current UPLB computer science students: I've wanted to put this into writing for a while, and graduation finally gave me the time. Make of it what you will.
 
+**[Part 2](/blog/2026/08/the-cost-of-preflight) is now up!** 
+
 ![UP SAIS Patience](/blog-content/amis-is-still-slow/patience.png "A picture showing one of UP SAIS' error messages, 'Patience'.")
