@@ -10,8 +10,12 @@
     },
     {
       "tags": ["professional"],
-      "title": "Unified XUL Platform Contributor/C++ Developer/Add-ons Team Member/Project Developer - Intern",
+      "group": "mcp",
+      "title": "Unified XUL Platform Contributor (C++ Developer)",
       "organization": "MCP",
+      "location": "Sweden",
+      "locationType": "Remote",
+      "employmentType": "Freelance",
       "dateStart": "2022-04",
       "dateEnd": "2026-07",
       "points": [
@@ -29,19 +33,53 @@
       ]
     },
     {
-      "tags": ["volunteering"],
-      "title": "Chairperson",
-      "organization": "UPLB Alliance of Dormitory Associations",
-      "dateStart": "2025-08",
-      "dateEnd": "2026-07"
+      "tags": ["professional"],
+      "group": "mcp",
+      "title": "Project Developer - Intern",
+      "employmentType": "Internship",
+      "dateStart": "2025-06",
+      "dateEnd": "2025-07"
     },
     {
       "tags": ["volunteering"],
-      "title": "President",
-      "organization": "UPLB ATI-NTC Residence Hall Association",
+      "group": "uplb-ada",
+      "title": "Chairperson",
+      "organization": "UPLB Alliance of Dormitory Associations",
+      "location": "Los Baños, Laguna, Philippines",
+      "locationType": "On-site",
+      "dateStart": "2025-08",
+      "dateEnd": "2026-07",
+      "points": [
+        "Provided leadership and direction for the Alliance’s programs, initiatives, and projects addressing the welfare and interests of dormitory residents across UPLB.",
+        "Represented the Alliance in discussions with university administration, presenting residents’ concerns and contributing to conversations on policies and resources related to student housing.",
+        "Communicated regularly with the UPLB Office of Student Housing, UPLB University Planning and Maintenance Office, UPLB Digital Innovation Center, UPLB Office of the Chancellor, and other relevant university offices regarding facility maintenance, internet connectivity, and other campus-provided services.",
+        "Led the PasADAhan 2026 Steering Committee, working with university offices, student organizations, and all residence hall associations.",
+        "Spearheaded the inaugural Tinig Dormer and Likhang Dormer events for PasADAhan 2026, providing residents with opportunities to showcase their talents in singing, spoken word poetry, photography, digital art, and traditional art.",
+        "Contributed to drafting a unified constitution for the Alliance and its member residence hall associations.",
+        "Facilitated the creation of Facebook groups for current and alumni residents, revived the ADA CARES form for reporting student housing concerns, and developed public guides on residential life, including reservations, payments, and connecting to eduroam and UPLB-Secure."
+      ]
+    },
+    {
+      "tags": ["volunteering"],
+      "group": "uplb-ada",
+      "title": "Ex officio member (as RHA President)",
       "dateStart": "2023-09",
       "dateEnd": "2026-07",
       "points": [
+        "Represented the UPLB ATI-NTC Residence Hall Association in the Alliance of Dormitory Associations, contributing to discussions and decisions on matters affecting dormitory residents."
+      ]
+    },
+    {
+      "tags": ["volunteering"],
+      "group": "uplb-ati",
+      "title": "President",
+      "organization": "UPLB ATI-NTC Residence Hall Association",
+      "location": "Los Baños, Laguna, Philippines",
+      "locationType": "On-site",
+      "dateStart": "2023-09",
+      "dateEnd": "2026-07",
+      "points": [
+        "Led the development of Hall Association One (HAOne), a residence hall association management system designed to support day-to-day operations, resident records, and financial accounting.",
         "Partnered with residents and association officers to plan and execute engaging community events and projects.",
         "Facilitated communication and coordination to address residents' concerns regarding their experiences in the dormitory with the dormitory manager, the Office of Student Housing, the UPLB Alliance of Dormitory Associations, and the UPLB University Student Council.",
         "Developed a financial tracking spreadsheet for budget management, receipt organization, and event reminders, facilitated e-mail communications.",
@@ -52,8 +90,22 @@
     },
     {
       "tags": ["volunteering"],
+      "group": "uplb-ati",
+      "title": "Creatives Head",
+      "dateStart": "2023-01",
+      "dateEnd": "2023-08",
+      "points": [
+        "Designed the main poster for the annual Open House and related promotional materials.",
+        "Coordinated with the members of the creatives team to ensure that all event materials are produced on time."
+      ]
+    },
+    {
+      "tags": ["volunteering"],
+      "group": "jpcs-apc",
       "title": "Director for Marketing and Promotions",
       "organization": "Junior Philippine Computer Society - Asia Pacific College Chapter",
+      "location": "Magallanes, Makati City, Philippines",
+      "locationType": "On-site",
       "dateStart": "2021-11",
       "dateEnd": "2022-08",
       "points": [
@@ -68,6 +120,13 @@
           "url": "https://www.youtube.com/@fofajardo/search?query=AVP"
         }
       ]
+    },
+    {
+      "tags": ["volunteering"],
+      "group": "jpcs-apc",
+      "title": "Trainee for Marketing and Promotions",
+      "dateStart": "2021-07",
+      "dateEnd": "2021-11"
     },
     {
       "tags": ["talks"],
