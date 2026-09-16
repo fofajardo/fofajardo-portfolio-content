@@ -20,7 +20,7 @@ preview: "15"
 previewset: true
 links: 
   - type: "site"
-    url: "https://numinous.pages.dev/"
+    url: "https://numinous.fofajardo.com/"
 ---
 
 

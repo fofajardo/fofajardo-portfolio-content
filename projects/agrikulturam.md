@@ -17,7 +17,7 @@ preview: "7"
 previewset: true
 links: 
   - type: "site"
-    url: "https://agriculturam-icj.pages.dev/"
+    url: "https://agrikulturam-icj.fofajardo.com/"
 ---
 
 
