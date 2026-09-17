@@ -284,6 +284,20 @@
       "hideLink": true
     },
     {
+      "id": "docker",
+      "category": "tool",
+      "name": "Docker",
+      "icon": "devicon-plain:docker",
+      "hideLink": true
+    },  
+    {
+      "id": "vscode",
+      "category": "tool",
+      "name": "VS Code",
+      "icon": "bxl:visual-studio",
+      "hideLink": true
+    },
+    {
       "id": "inkscape",
       "category": "graphic-design",
       "name": "Inkscape",
@@ -409,10 +423,17 @@
       "icon": "simple-icons:digitalocean"
     },
     {
-      "id": "cloudflare-pages",
-      "category": "technology",
-      "name": "Cloudflare Pages",
+      "id": "cloudflare",
+      "category": "tool",
+      "name": "Cloudflare",
       "icon": "devicon-plain:cloudflare"
+    },
+    {
+      "id": "vercel",
+      "category": "tool",
+      "name": "Vercel",
+      "icon": "devicon:vercel",
+      "hideLink": true
     },
     {
       "id": "gsheets-api",
