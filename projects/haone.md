@@ -23,6 +23,7 @@ points:
   - "Designed and implemented a laundry facility reservation system with real-time availability tracking and Google Calendar integration, reducing scheduling conflicts and improving resource utilization."
   - "Integrated Gmail API to automate transactional email dispatching for payment receipts, statement of account issuances, and clearance certificates."
 preview: "22"
+previewset: true
 links: 
   - type: "github"
     url: "https://github.com/fofajardo/haone"
