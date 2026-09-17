@@ -2,71 +2,71 @@
   "nav": [
     {
       "href": "/",
-      "icon": "line-md:home",
+      "icon": "ph:house-bold",
       "label": "Home"
     },
     {
       "href": "/about",
-      "icon": "line-md:briefcase",
+      "icon": "ph:briefcase-bold",
       "label": "About Me"
     },
     {
       "href": "/projects",
-      "icon": "line-md:construction",
+      "icon": "ph:traffic-cone-bold",
       "label": "Projects"
     },
     {
       "href": "/blog",
-      "icon": "line-md:pencil",
+      "icon": "ph:pencil-bold",
       "label": "Blog"
     },
     {
       "href": "mailto:fajardo@duck.com",
-      "icon": "line-md:email",
+      "icon": "ph:envelope-bold",
       "label": "Email",
       "rel": "external"
     },
     {
-      "href": "https://facebook.com/fofajardo",
-      "icon": "line-md:facebook",
+      "href": "http s://facebook.com/fofajardo",
+      "icon": "ph:facebook-logo-bold",
       "label": "Facebook",
       "rel": "external"
     },
     {
       "href": "https://twitter.com/fofajardo",
-      "icon": "line-md:twitter",
+      "icon": "ph:twitter-logo-bold",
       "label": "Twitter",
       "rel": "external",
       "limitTo": "launcher"
     },
     {
       "href": "https://fosstodon.org/@fajardo",
-      "icon": "line-md:mastodon",
+      "icon": "ph:mastodon-logo-bold",
       "label": "Mastodon",
       "rel": "external"
     },
     {
       "href": "https://linkedin.com/in/fofajardo",
-      "icon": "line-md:linkedin",
+      "icon": "ph:linkedin-logo-bold",
       "label": "LinkedIn",
       "rel": "external"
     },
     {
       "href": "https://github.com/fofajardo",
-      "icon": "line-md:github-loop",
+      "icon": "ph:github-logo-bold",
       "label": "GitHub",
       "rel": "external"
     },
     {
       "href": "https://gitlab.com/fofajardo",
-      "icon": "tabler:brand-gitlab",
+      "icon": "ph:gitlab-logo-bold",
       "label": "GitLab",
       "rel": "external",
       "limitTo": "launcher"
     },
     {
       "href": "https://steamcommunity.com/id/frankwilco/",
-      "icon": "tabler:brand-steam",
+      "icon": "ph:steam-logo-bold",
       "label": "Steam",
       "rel": "external",
       "limitTo": "launcher"
