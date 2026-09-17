@@ -4,31 +4,31 @@
       "id": "education",
       "category": "experience",
       "name": "Education",
-      "icon": "tabler:school"
+      "icon": "ph:graduation-cap-bold"
     },
     {
       "id": "professional",
       "category": "experience",
       "name": "Professional",
-      "icon": "tabler:briefcase"
+      "icon": "ph:briefcase-bold"
     },
     {
       "id": "volunteering",
       "category": "experience",
       "name": "Volunteering",
-      "icon": "tabler:box"
+      "icon": "ph:cube-bold"
     },
     {
       "id": "talks",
       "category": "experience",
       "name": "Invited Talks and Presentations",
-      "icon": "tabler:message"
+      "icon": "ph:projector-screen-bold"
     },
     {
       "id": "competitions",
       "category": "experience",
       "name": "Hackathons and Competitions",
-      "icon": "tabler:binary"
+      "icon": "ph:binary-bold"
     },
     {
       "id": "all",
@@ -171,7 +171,7 @@
       "id": "wpf",
       "category": "technology",
       "name": "WPF",
-      "icon": "tabler:brand-windows-filled"
+      "icon": "ph:windows-logo-fill"
     },
     {
       "id": "mgxna",
