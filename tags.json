@@ -452,6 +452,12 @@
       "category": "technology",
       "name": "shadcn/ui",
       "icon": "bxl:shadcn-ui"
+    },
+    {
+      "id": "xul",
+      "category": "technology",
+      "name": "XUL",
+      "icon": "ph:file-code-bold"
     }
   ]
 }
