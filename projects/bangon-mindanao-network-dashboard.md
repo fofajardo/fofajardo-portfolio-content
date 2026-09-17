@@ -5,6 +5,7 @@ tags:
 title: "Bangon Mindanao Network Dashboard"
 subtitle: "Dashboard for tracking the status of donations and relief efforts for the 2026 Mindanao earthquake"
 dateStart: "2026-06"
+dateEnd: ""
 technologies: 
   - "html-css"
   - "typescript"
