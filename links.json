@@ -1,4 +1,129 @@
 {
+  "contacts": [
+    {
+      "href": "mailto:me@fofajardo.com",
+      "icon": "ph:envelope-bold",
+      "label": "Email",
+      "rel": "external",
+      "subtitle": "The best way to reach me. Yes, I actually check it regularly."
+    },
+    {
+      "href": "https://linkedin.com/in/fofajardo",
+      "icon": "ph:linkedin-logo-bold",
+      "label": "LinkedIn",
+      "rel": "external",
+      "subtitle": "Professional updates, projects, and career highlights."
+    },
+    {
+      "href": "https://facebook.com/fofajardo",
+      "icon": "ph:facebook-logo-bold",
+      "label": "Facebook",
+      "rel": "external",
+      "subtitle": "For friends, family, and people I know personally."
+    },
+    {
+      "href": "https://www.instagram.com/fofajardo1/",
+      "icon": "ph:instagram-logo-bold",
+      "label": "Instagram",
+      "rel": "external",
+      "subtitle": "A little glimpse into life beyond the keyboard."
+    },
+    {
+      "href": "https://twitter.com/fofajardo",
+      "icon": "ph:twitter-logo-bold",
+      "label": "Twitter",
+      "rel": "external",
+      "subtitle": "X? I barely use this anymore. Find me in the Fediverse instead."
+    },
+    {
+      "href": "https://fosstodon.org/@fajardo",
+      "icon": "ph:mastodon-logo-bold",
+      "label": "Mastodon",
+      "rel": "external",
+      "subtitle": "Thoughts, tech, and friendly conversations."
+    },
+    {
+      "href": "https://github.com/fofajardo",
+      "icon": "ph:github-logo-bold",
+      "label": "GitHub",
+      "rel": "external",
+      "subtitle": "Coding since 2015, collecting commits and the occasional bug."
+    },
+    {
+      "href": "https://gitlab.com/fofajardo",
+      "icon": "ph:gitlab-logo-bold",
+      "label": "GitLab",
+      "rel": "external",
+      "subtitle": "More code, more projects, and more version control."
+    },
+    {
+      "href": "https://stackoverflow.com/users/9610960/francis-fajardo",
+      "icon": "ph:stack-overflow-logo-bold",
+      "label": "Stack Overflow",
+      "rel": "external",
+      "subtitle": "Questions, answers, and the occasional accepted solution."
+    },
+    {
+      "href": "https://aur.archlinux.org/account/frankwilco",
+      "icon": "thesvg:arch-linux",
+      "label": "Arch Linux User Repository",
+      "subtitle": "I use Arch btw.<br/>... and I maintain packages on AUR too!"
+    },
+    {
+      "href": "https://goodreads.com/fofajardo",
+      "icon": "ph:goodreads-logo-bold",
+      "label": "Goodreads",
+      "rel": "external",
+      "subtitle": "Books I have read and keep meaning to finish, from Middle-earth to other realms of magic."
+    },
+    {
+      "href": "https://saligsig.wordpress.com/",
+      "icon": "ph:pen-nib-bold",
+      "label": "WordPress",
+      "rel": "external",
+      "subtitle": "I used to write here in Filipino. Maybe I will return someday."
+    },
+    {
+      "href": "https://steamcommunity.com/id/frankwilco/",
+      "icon": "ph:steam-logo-bold",
+      "label": "Steam",
+      "rel": "external",
+      "subtitle": "For games, wishlists, and questionable playtime statistics (if you can see it!)."
+    },
+    {
+      "href": "https://retroachievements.org/user/frankwilco",
+      "icon": "thesvg:retro-achievements",
+      "label": "RetroAchievements",
+      "rel": "external",
+      "subtitle": "I play classic games and chase achievements when I am not busy writing code."
+    },
+    {
+      "href": "https://www.reddit.com/user/frankwilco/",
+      "icon": "ph:reddit-logo-bold",
+      "label": "Reddit",
+      "rel": "external",
+      "subtitle": "I have a life, so I mostly lurk responsibly."
+    },
+    {
+      "icon": "ph:discord-logo-bold",
+      "label": "Discord",
+      "subtitle": "Find me as <code>frankwilco</code>. Have a project in mind? Let's chat on Discord."
+    },
+    {
+      "href": "https://www.youtube.com/@fofajardo",
+      "icon": "ph:youtube-logo-bold",
+      "label": "YouTube",
+      "rel": "external",
+      "subtitle": "A random collection of videos, because apparently I have a channel."
+    },
+    {
+      "href": "https://account.aq.com/CharPage?id=011f2",
+      "icon": "ph:sword-bold",
+      "label": "AdventureQuest Worlds",
+      "rel": "external",
+      "subtitle": "My character is still out there somewhere, probably fighting Horcs."
+    }
+  ],
   "nav": [
     {
       "href": "/",
@@ -11,6 +136,11 @@
       "label": "About Me"
     },
     {
+      "href": "/contact",
+      "icon": "ph:mailbox-bold",
+      "label": "Contact Me"
+    },
+    {
       "href": "/projects",
       "icon": "ph:traffic-cone-bold",
       "label": "Projects"
@@ -19,71 +149,6 @@
       "href": "/blog",
       "icon": "ph:pencil-bold",
       "label": "Blog"
-    },
-    {
-      "href": "mailto:me@fofajardo.com",
-      "icon": "ph:envelope-bold",
-      "label": "Email",
-      "rel": "external"
-    },
-    {
-      "href": "https://facebook.com/fofajardo",
-      "icon": "ph:facebook-logo-bold",
-      "label": "Facebook",
-      "rel": "external"
-    },
-    {
-      "href": "hhttps://www.instagram.com/fofajardo1/",
-      "icon": "ph:instagram-logo-bold",
-      "label": "Instagram",
-      "rel": "external",
-      "limitTo": "launcher"
-    },
-    {
-      "href": "https://twitter.com/fofajardo",
-      "icon": "ph:twitter-logo-bold",
-      "label": "Twitter",
-      "rel": "external",
-      "limitTo": "launcher"
-    },
-    {
-      "href": "https://fosstodon.org/@fajardo",
-      "icon": "ph:mastodon-logo-bold",
-      "label": "Mastodon",
-      "rel": "external"
-    },
-    {
-      "href": "https://linkedin.com/in/fofajardo",
-      "icon": "ph:linkedin-logo-bold",
-      "label": "LinkedIn",
-      "rel": "external"
-    },
-    {
-      "href": "https://github.com/fofajardo",
-      "icon": "ph:github-logo-bold",
-      "label": "GitHub",
-      "rel": "external"
-    },
-    {
-      "href": "https://gitlab.com/fofajardo",
-      "icon": "ph:gitlab-logo-bold",
-      "label": "GitLab",
-      "rel": "external",
-      "limitTo": "launcher"
-    },
-    {
-      "href": "https://stackoverflow.com/users/9610960/francis-fajardo",
-      "icon": "ph:stack-overflow-logo-bold",
-      "label": "Stack Overflow",
-      "rel": "external",
-      "limitTo": "launcher"
-    },
-    {
-      "href": "https://steamcommunity.com/id/frankwilco/",
-      "icon": "ph:steam-logo-bold",
-      "label": "Steam",
-      "rel": "external",
-      "limitTo": "launcher"
     }
   ]
 }
