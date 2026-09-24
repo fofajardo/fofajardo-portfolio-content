@@ -33,6 +33,13 @@
       "rel": "external"
     },
     {
+      "href": "hhttps://www.instagram.com/fofajardo1/",
+      "icon": "ph:instagram-logo-bold",
+      "label": "Instagram",
+      "rel": "external",
+      "limitTo": "launcher"
+    },
+    {
       "href": "https://twitter.com/fofajardo",
       "icon": "ph:twitter-logo-bold",
       "label": "Twitter",
@@ -61,6 +68,13 @@
       "href": "https://gitlab.com/fofajardo",
       "icon": "ph:gitlab-logo-bold",
       "label": "GitLab",
+      "rel": "external",
+      "limitTo": "launcher"
+    },
+    {
+      "href": "https://stackoverflow.com/users/9610960/francis-fajardo",
+      "icon": "ph:stack-overflow-logo-bold",
+      "label": "Stack Overflow",
       "rel": "external",
       "limitTo": "launcher"
     },
