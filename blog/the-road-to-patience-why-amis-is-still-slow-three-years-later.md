@@ -9,7 +9,7 @@ tags:
   - cors
   - web-performance
   - api-design
-ogImage: /blog-content/amis-is-still-slow/preview.png
+ogImage: /blog-assets/amis-is-still-slow/preview.png
 discuss:
   reddit: "https://www.reddit.com/r/peyups/comments/1uscu8i/uplb_the_road_to_patience_why_amis_is_still_slow/"
   mastodon: "https://fosstodon.org/@fajardo/116883329929032145"
@@ -51,7 +51,7 @@ Most web developers today place limited emphasis on optimization. Although compu
 
 Speaking as a volunteer developer for a niche web browser who has [modified and reviewed CORS-related code directly](https://repo.palemoon.org/MoonchildProductions/UXP/pulls/2580), I can attest that AMIS's CORS configuration is unusual. Due to how the API responds, unnecessary CORS preflight requests are made, which, in practice, double the number of requests per API call made by the front-end, as shown in <TableRef id="table-requests" />. Whether this is an intentional configuration choice or simply an oversight, the effect is the same. The server sets the HTTP header `Access-Control-Max-Age` to `0`, meaning the browser will never cache the preflight response and will instead issue a new preflight request with every API call, as shown in <FigureRef id="fig-cors" />.
 
-<Figure id="fig-cors" src="/blog-content/amis-is-still-slow/cors_preflight_doubling.svg" alt="Comparison of two timelines. In the top timeline, labeled 'AMIS today,' three consecutive API calls each require an OPTIONS preflight request followed by a GET request, totaling six requests. In the bottom timeline, labeled 'with a sane max-age', only the first call includes an OPTIONS preflight; the following two calls are GET requests only, totaling four requests." caption="CORS preflight request doubling diagram" />
+<Figure id="fig-cors" src="/blog-assets/amis-is-still-slow/cors_preflight_doubling.svg" alt="Comparison of two timelines. In the top timeline, labeled 'AMIS today,' three consecutive API calls each require an OPTIONS preflight request followed by a GET request, totaling six requests. In the bottom timeline, labeled 'with a sane max-age', only the first call includes an OPTIONS preflight; the following two calls are GET requests only, totaling four requests." caption="CORS preflight request doubling diagram" />
 
 Imagine asking your mom, "Can I have a cookie?" and she says yes. Normally, you'd just go get the cookie. But here, it's as if you have to ask "Can I have a cookie?" again, every single time, even if she just said yes two seconds ago, before you're allowed to actually take one.
 
@@ -120,7 +120,7 @@ Imagine going grocery shopping, but instead of writing a list and making one tri
 
 A more sensible approach would be to introduce an aggregator endpoint on the backend, following the [Backend-for-Frontend (BFF)](https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends) pattern, also related to the [Gateway Aggregation](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation) pattern. This could potentially merge these requests into a single API call instead of eight, combined with proper client-side caching of infrequently changing data such as student information, as shown in <FigureRef id="fig-bff" />.
 
-<Figure id="fig-bff" src="/blog-content/amis-is-still-slow/bff_aggregation_comparison.svg" alt="Diagram comparing two architectures. In the current setup, the front-end sends eight separate direct requests to individual API endpoints, including student_enlistment, enlistment_finalization, student-holds, student-terms, enlistments, enlistment_addition_only, students, and contents. In the proposed setup, the front-end sends a single request to a BFF aggregator endpoint on the same origin, which then makes internal service calls on the backend without triggering browser-side CORS preflight requests." caption="Eight direct API calls versus one aggregated call" />
+<Figure id="fig-bff" src="/blog-assets/amis-is-still-slow/bff_aggregation_comparison.svg" alt="Diagram comparing two architectures. In the current setup, the front-end sends eight separate direct requests to individual API endpoints, including student_enlistment, enlistment_finalization, student-holds, student-terms, enlistments, enlistment_addition_only, students, and contents. In the proposed setup, the front-end sends a single request to a BFF aggregator endpoint on the same origin, which then makes internal service calls on the backend without triggering browser-side CORS preflight requests." caption="Eight direct API calls versus one aggregated call" />
 
 
 ### Point C: Inadequate error handling and error recovery, or the lack thereof
@@ -129,7 +129,7 @@ Another area with room for improvement is the front-end's handling of failed API
 
 Furthermore, critical user actions such as enlistment can be unnecessarily blocked when non-essential data fails to load. From the user's point of view, the request most directly tied to rendering the core of the enlistment module appears to be `<api>/enlistments?enlistment_user_id=<redacted_guid>&term_id=<redacted_term>&enlistedClasses=true`, as shown in <FigureRef id="fig-tceh" /> (and in truncated form in <TableRef id="table-requests" />). This returns a JSON containing the current term ID and all bookmarked and enlisted classes. The front-end prevents interaction even though the backend already contains sufficient validation logic (i.e., enlistment is already blocked if the user has holds). Allowing users to proceed with enlistment while delegating final validation to the API, which it already does, would improve usability.
 
-<Figure id="fig-tceh" src="/blog-content/amis-is-still-slow/tight_coupling_error_handling.svg" alt="Diagram showing eight requests fired on page load, with one labeled 'enlistments' marked as the essential call and the other seven, including student-holds, contents, student-terms, finalization, addition_only, students, and enlistment info, marked as non-essential. The student-terms request fails while enlistments succeeds, but both outcomes converge into a single result: the enlistment module gets stuck loading, despite already having the data it needs." caption="One failed request blocks the whole module." />
+<Figure id="fig-tceh" src="/blog-assets/amis-is-still-slow/tight_coupling_error_handling.svg" alt="Diagram showing eight requests fired on page load, with one labeled 'enlistments' marked as the essential call and the other seven, including student-holds, contents, student-terms, finalization, addition_only, students, and enlistment info, marked as non-essential. The student-terms request fails while enlistments succeeds, but both outcomes converge into a single result: the enlistment module gets stuck loading, despite already having the data it needs." caption="One failed request blocks the whole module." />
 
 ### FAQ: Do Alternative Browsers Matter?
 
@@ -173,4 +173,4 @@ To all future and current UPLB computer science students: I've wanted to put thi
 
 **[Part 2](/blog/2026/08/the-cost-of-preflight) is now up!** 
 
-![UP SAIS Patience](/blog-content/amis-is-still-slow/patience.png "A picture showing one of UP SAIS' error messages, 'Patience'.")
+![UP SAIS Patience](/blog-assets/amis-is-still-slow/patience.png "A picture showing one of UP SAIS' error messages, 'Patience'.")
