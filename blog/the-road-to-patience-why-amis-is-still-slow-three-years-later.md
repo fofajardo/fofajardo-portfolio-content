@@ -15,11 +15,7 @@ discuss:
   mastodon: "https://fosstodon.org/@fajardo/116883329929032145"
 ---
 <script lang="ts">
-  import Figure from "$lib/Figure.svelte";
-  import FigureRef from "$lib/FigureRef.svelte";
-  import Table from "$lib/Table.svelte";
-  import TableRef from "$lib/TableRef.svelte";
-  import BigQuote from "$lib/BigQuote.svelte";
+  import { Figure, FigureRef, Table, TableRef } from "$comp/blog";
 </script>
 
 As a UPLB student, I experienced, and *suffered through*, both enlistment systems: the [Oracle PeopleSoft Campus Solutions](https://docs.oracle.com/cd/E52319_01/infoportal/cs.html)-powered [Student Academic Information System (SAIS)](https://up.edu.ph/student-academic-information-system-sais/) during my Freshman year, and our "homegrown" [Academic Management Information System (AMIS)](https://amis.uplb.edu.ph). Three years on, and despite some improvements, many students still encounter the infamous **502 Bad Gateway** error during the enlistment season.
