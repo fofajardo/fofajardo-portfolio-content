@@ -1,17 +1,17 @@
 ---
-tags: 
+tags:
   - "personal"
   - "packages"
 title: "NuVelocity"
 subtitle: "Re-implementation of Reflexive Entertainment's Velocity Engine"
 dateStart: "2023-07"
-technologies: 
+technologies:
   - "cpp"
   - "sdl"
   - "csharp"
 points: []
 preview: "29"
-links: 
+links:
   - type: "github"
     url: "https://github.com/NuVelocity/NuVelocity"
 hasBody: true

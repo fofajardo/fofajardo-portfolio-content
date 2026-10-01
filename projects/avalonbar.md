@@ -1,17 +1,17 @@
 ---
-tags: 
+tags:
   - "personal"
   - "packages"
 title: "AvalonBar"
 subtitle: "Sidebar with the aim of reimplementing and expanding upon the features and concept of the Longhorn Sidebar"
 dateStart: "2016-07"
 dateEnd: ""
-technologies: 
+technologies:
   - "csharp"
   - "wpf"
 points: []
 preview: "25"
-links: 
+links:
   - type: "github"
     url: "https://github.com/AvalonBar/AvalonBar"
   - type: "site"

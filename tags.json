@@ -289,7 +289,7 @@
       "name": "Docker",
       "icon": "devicon-plain:docker",
       "hideLink": true
-    },  
+    },
     {
       "id": "vscode",
       "category": "tool",

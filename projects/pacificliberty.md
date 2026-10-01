@@ -1,19 +1,19 @@
 ---
-tags: 
+tags:
   - "academic"
   - "games-and-mods"
 title: "Pacific Liberty"
 subtitle: "Interactive Fiction Computer Game"
 dateStart: "2021-05"
 dateEnd: "2021-06"
-technologies: 
+technologies:
   - "java"
-points: 
+points:
   - "Wrote a text-based interactive fiction computer game with a team, similar to the popular computer games of the late 70s like [Zork](https://en.wikipedia.org/wiki/Zork)."
   - "Developed Statesman, a text adventure game system with a fully-featured scripting system, which means that the commands, interactions, text, and related resources are not hardcoded into the game and are instead read externally from the file system and parsed on runtime."
 preview: "4"
 previewset: true
-links: 
+links:
   - type: "github"
     url: "https://github.com/Lupalop/PacificLiberty"
 hasBody: true

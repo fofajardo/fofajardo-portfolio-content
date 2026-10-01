@@ -1,17 +1,17 @@
 ---
-tags: 
+tags:
   - "personal"
   - "packages"
 title: "Maquina"
 subtitle: "2D game engine built on top of MonoGame in C#"
 dateStart: "2018-04"
 dateEnd: ""
-technologies: 
+technologies:
   - "csharp"
   - "mgxna"
 points: []
 preview: "24"
-links: 
+links:
   - type: "github"
     url: "https://github.com/Lupalop/Maquina"
 hasBody: true

@@ -1,23 +1,23 @@
 ---
-tags: 
+tags:
   - "academic"
   - "web"
 title: "KoDatos"
 subtitle: "COVID-19 vaccination and test records platform"
 dateStart: "2021-11"
 dateEnd: ""
-technologies: 
+technologies:
   - "php"
   - "html-css"
   - "javascript"
   - "mysql"
   - "pwa"
-points: 
+points:
   - "Developed a system for handling test results and vaccination records, primarily focused on COVID-19, that allowed people to verify the authenticity of these documents."
   - "Integrated many useful features, such as the ability to scan QR codes from vaccination records and test results."
 preview: "5"
 previewset: true
-links: 
+links:
   - type: "github"
     url: "https://github.com/fofajardo/kodatos"
 hasBody: true

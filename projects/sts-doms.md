@@ -1,20 +1,20 @@
 ---
-tags: 
+tags:
   - "academic"
   - "hci-ux"
 title: "Dormitory Online Monitoring System"
 subtitle: "Mobile App for UPLB Dormitory Transactions"
 dateStart: "2022-12"
 dateEnd: ""
-technologies: 
+technologies:
   - "figma"
-points: 
+points:
   - "Coordinated with a team to determine and form the app's purpose and goals."
   - "Designed the app's layout and flow using Figma and Material Design assets."
   - "Conducted a Strengths, Weaknesses, Opportunities, and Threats (SWOT) analysis to accompany the app's proposal and future development"
 preview: "10"
 previewset: true
-links: 
+links:
   - type: "figma"
     url: "https://www.figma.com/proto/lnCGzMDAy2kr9QVEFAI9j2/DOMS-Prototype?type=design&node-id=52695-23858&t=8RrjbQT5de7BvQv0-1&scaling=scale-down&page-id=52695%3A23857&starting-point-node-id=52695%3A23858&mode=design"
 hasBody: true

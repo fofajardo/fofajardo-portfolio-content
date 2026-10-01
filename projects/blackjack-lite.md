@@ -1,17 +1,17 @@
 ---
-tags: 
+tags:
   - "academic"
   - "games-and-mods"
 title: "Blackjack Lite"
 subtitle: "Simple text-based implementation of the classic blackjack card game in Python"
 dateStart: "2022-12"
 dateEnd: ""
-technologies: 
+technologies:
   - "python"
 points: []
 preview: "27"
 previewset: true
-links: 
+links:
   - type: "github"
     url: "https://github.com/fofajardo/cmsc12-blackjack-lite"
 hasBody: true

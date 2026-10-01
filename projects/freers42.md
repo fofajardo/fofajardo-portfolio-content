@@ -1,16 +1,16 @@
 ---
-tags: 
+tags:
   - "personal"
   - "games-and-mods"
 title: "FreeRS42"
 subtitle: "Modern C++ re-implementation of Ricochet Xtreme"
 dateStart: "2026-01"
-technologies: 
+technologies:
   - "cpp"
   - "sdl"
 points: []
 preview: "28"
-links: 
+links:
   - type: "github"
     url: "https://github.com/NuVelocity/FRS42"
 hasBody: true

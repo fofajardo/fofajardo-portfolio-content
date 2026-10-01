@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - "personal"
   - "packages"
 title: "Add-ons for UXP Applications"
@@ -12,5 +12,3 @@ technologies:
   - "html-css"
   - "javascript"
 ---
-
-

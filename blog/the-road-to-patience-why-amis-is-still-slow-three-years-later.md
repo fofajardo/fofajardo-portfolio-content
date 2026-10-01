@@ -14,11 +14,12 @@ discuss:
   reddit: "https://www.reddit.com/r/peyups/comments/1uscu8i/uplb_the_road_to_patience_why_amis_is_still_slow/"
   mastodon: "https://fosstodon.org/@fajardo/116883329929032145"
 ---
+
 <script lang="ts">
   import { Figure, FigureRef, Table, TableRef } from "$comp/blog";
 </script>
 
-As a UPLB student, I experienced, and *suffered through*, both enlistment systems: the [Oracle PeopleSoft Campus Solutions](https://docs.oracle.com/cd/E52319_01/infoportal/cs.html)-powered [Student Academic Information System (SAIS)](https://up.edu.ph/student-academic-information-system-sais/) during my Freshman year, and our "homegrown" [Academic Management Information System (AMIS)](https://amis.uplb.edu.ph). Three years on, and despite some improvements, many students still encounter the infamous **502 Bad Gateway** error during the enlistment season.
+As a UPLB student, I experienced, and _suffered through_, both enlistment systems: the [Oracle PeopleSoft Campus Solutions](https://docs.oracle.com/cd/E52319_01/infoportal/cs.html)-powered [Student Academic Information System (SAIS)](https://up.edu.ph/student-academic-information-system-sais/) during my Freshman year, and our "homegrown" [Academic Management Information System (AMIS)](https://amis.uplb.edu.ph). Three years on, and despite some improvements, many students still encounter the infamous **502 Bad Gateway** error during the enlistment season.
 
 Back in January 2024, I volunteered as a student tester for AMIS and shared feedback on several concerns I had. The invitation asked volunteers to sign in to a separate development instance and simply re-enlist the classes we were already taking that semester, within a roughly one-week window, so that any bugs encountered along the way could be reported back to the team.
 
@@ -28,7 +29,7 @@ Following that, I raised one minor suggestion:
 > <br/>
 > Good day,
 > <br/><br/>
-> S: " Please consider including a button to toggle all the accordion/collapse cards in the active enlistment section of the student enlistment module, similar to how the section used to behave before the recent update. It is a hassle to click on each card individually just to view more details, particularly the name/s of the FIC in a class. Or better yet, a way to completely disable the collapse cards and just show everything at once. Thanks! " 
+> S: " Please consider including a button to toggle all the accordion/collapse cards in the active enlistment section of the student enlistment module, similar to how the section used to behave before the recent update. It is a hassle to click on each card individually just to view more details, particularly the name/s of the FIC in a class. Or better yet, a way to completely disable the collapse cards and just show everything at once. Thanks! "
 > <br/><br/>
 > A: Just wanted to say a big thanks for sharing your suggestion with us. We appreciate your input and will definitely consider it to make things better.
 > Thank you for your understanding.
@@ -57,9 +58,9 @@ Imagine asking your mom, "Can I have a cookie?" and she says yes. Normally, you'
 
 There are several ways to resolve this:
 
-1. **Disable CORS (not recommended).** This is undeniably risky, but I have used it to observe how much of the delay comes from repeated preflight requests, since it is the *only* client-side comparison available to users. Not all browsers support this. Firefox refuses to proceed whenever a preflight request is deemed "necessary," if CORS is disabled. This was actually something I patched myself in the niche browser mentioned earlier, which was forked from Firefox. Chrome and its derivatives, on the other hand, works as expected under this configuration. All preflight requests are skipped if you launch it with the `--disable-web-security` flag alongside a custom profile directory via `--user-data-dir`.
+1. **Disable CORS (not recommended).** This is undeniably risky, but I have used it to observe how much of the delay comes from repeated preflight requests, since it is the _only_ client-side comparison available to users. Not all browsers support this. Firefox refuses to proceed whenever a preflight request is deemed "necessary," if CORS is disabled. This was actually something I patched myself in the niche browser mentioned earlier, which was forked from Firefox. Chrome and its derivatives, on the other hand, works as expected under this configuration. All preflight requests are skipped if you launch it with the `--disable-web-security` flag alongside a custom profile directory via `--user-data-dir`.
 
-    **However, never browse the general web with CORS disabled!** To wit: it only removes a browser-side check on your own machine. It doesn't touch the server, doesn't grant access to anything you couldn't already retrieve while logged in, and has no effect on any other student's session or data.
+   **However, never browse the general web with CORS disabled!** To wit: it only removes a browser-side check on your own machine. It doesn't touch the server, doesn't grant access to anything you couldn't already retrieve while logged in, and has no effect on any other student's session or data.
 
 2. **Use a sane `Access-Control-Max-Age` value.** This can only be done by the server administrator (in this case, the AMIS developers). Preflight requests would still be made, but not at the current, excessive frequency of once per API call.
 
@@ -71,13 +72,13 @@ As illustrated in <TableRef id="table-overhead-estimate" />, A single page load 
 
 <Table id="table-overhead-estimate" caption="Estimated overhead of preflight requests.">
 
-| Metric                                   | Measured (low traffic)  | Rough peak estimate          |
-|------------------------------------------|-------------------------|------------------------------|
-| Preflights per load                      | 8                       | 8                            |
-| On warm connection                       | 4 (~38 ms each)         | fewer, as concurrent users compete for the connection pool |
-| On fresh TCP+TLS handshake               | 4 (~107 ms each)        | most/all 8, plus queuing delay |
-| Total preflight time per load            | 581 ms                  | ~1,300 to 1,700 ms           |
-| Aggregate, 3,000 users x 1 load          | ~29 min                 | ~65 to 85 min                |
+| Metric                          | Measured (low traffic) | Rough peak estimate                                        |
+| ------------------------------- | ---------------------- | ---------------------------------------------------------- |
+| Preflights per load             | 8                      | 8                                                          |
+| On warm connection              | 4 (~38 ms each)        | fewer, as concurrent users compete for the connection pool |
+| On fresh TCP+TLS handshake      | 4 (~107 ms each)       | most/all 8, plus queuing delay                             |
+| Total preflight time per load   | 581 ms                 | ~1,300 to 1,700 ms                                         |
+| Aggregate, 3,000 users x 1 load | ~29 min                | ~65 to 85 min                                              |
 
 </Table>
 
@@ -90,24 +91,24 @@ To put this in perspective: if even **3,000 students** attempt to enlist within 
 <Table id="table-requests" caption="Sixteen requests made by the AMIS Enlistment Module (adapted from Firefox Developer Tools' Network Tab).">
 <div class="table-overflow">
 
-| Status | Method  | Domain            | Request                                                                 | Initiator         | Type | Size     | Transferred |
-|--------|---------|-------------------|-------------------------------------------------------------------------|-------------------|------|----------|-------------|
-| 204 | OPTIONS | api-amis.uplb.edu.ph | student_enlistment?role=student                                         | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | student_enlistment?role=student                                         | 3446b90.js2 (xhr) | json | 650 B    | 295 B |
-| 204 | OPTIONS | api-amis.uplb.edu.ph | enlistment_finalization?role=student                                    | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | enlistment_finalization?role=student                                    | 3446b90.js2 (xhr) | json | 650 B    | 295 B |
-| 204 | OPTIONS | api-amis.uplb.edu.ph | student-holds?status=Open&is_positive_indicator=false&for_er...          | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | student-holds?status=Open&is_positive_indicator=false&for_er...          | 3446b90.js2 (xhr) | json | 375 B    | 20 B |
-| 204 | OPTIONS | api-amis.uplb.edu.ph | contents?title_in[]=student+enlistment+alert&title_in[]=student...       | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | contents?title_in[]=student+enlistment+alert&title_in[]=student...       | 3446b90.js2 (xhr) | json | 596 B    | 241 B |
-| 204 | OPTIONS | api-amis.uplb.edu.ph | student-terms?order_type=DESC&order_field=ay                            | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | student-terms?order_type=DESC&order_field=ay                            | 3446b90.js2 (xhr) | json | 73.71 kB | 73.36 kB |
-| 204 | OPTIONS | api-amis.uplb.edu.ph | enlistments?enlistment_user_id=\<redacted_guid\>                        | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | enlistments?enlistment_user_id=\<redacted_guid\>                        | 3446b90.js2 (xhr) | json | 578 B    | 223 B |
-| 204 | OPTIONS | api-amis.uplb.edu.ph | enlistment_addition_only?role=student                                   | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | enlistment_addition_only?role=student                                   | 3446b90.js2 (xhr) | json | 650 B    | 295 B |
-| 204 | OPTIONS | api-amis.uplb.edu.ph | students?student_enlistment_info=true&term_id=\<redacted_term\>         | xhr               | html | 476 B    | 0 B |
-| 200 | GET     | api-amis.uplb.edu.ph | students?student_enlistment_info=true&term_id=\<redacted_term\>         | 3446b90.js2 (xhr) | json | 3.47 kB  | 3.12 kB |
+| Status | Method  | Domain               | Request                                                            | Initiator         | Type | Size     | Transferred |
+| ------ | ------- | -------------------- | ------------------------------------------------------------------ | ----------------- | ---- | -------- | ----------- |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | student_enlistment?role=student                                    | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | student_enlistment?role=student                                    | 3446b90.js2 (xhr) | json | 650 B    | 295 B       |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | enlistment_finalization?role=student                               | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | enlistment_finalization?role=student                               | 3446b90.js2 (xhr) | json | 650 B    | 295 B       |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | student-holds?status=Open&is_positive_indicator=false&for_er...    | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | student-holds?status=Open&is_positive_indicator=false&for_er...    | 3446b90.js2 (xhr) | json | 375 B    | 20 B        |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | contents?title_in[]=student+enlistment+alert&title_in[]=student... | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | contents?title_in[]=student+enlistment+alert&title_in[]=student... | 3446b90.js2 (xhr) | json | 596 B    | 241 B       |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | student-terms?order_type=DESC&order_field=ay                       | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | student-terms?order_type=DESC&order_field=ay                       | 3446b90.js2 (xhr) | json | 73.71 kB | 73.36 kB    |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | enlistments?enlistment_user_id=\<redacted_guid\>                   | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | enlistments?enlistment_user_id=\<redacted_guid\>                   | 3446b90.js2 (xhr) | json | 578 B    | 223 B       |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | enlistment_addition_only?role=student                              | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | enlistment_addition_only?role=student                              | 3446b90.js2 (xhr) | json | 650 B    | 295 B       |
+| 204    | OPTIONS | api-amis.uplb.edu.ph | students?student_enlistment_info=true&term_id=\<redacted_term\>    | xhr               | html | 476 B    | 0 B         |
+| 200    | GET     | api-amis.uplb.edu.ph | students?student_enlistment_info=true&term_id=\<redacted_term\>    | 3446b90.js2 (xhr) | json | 3.47 kB  | 3.12 kB     |
 
 </div>
 </Table>
@@ -121,7 +122,6 @@ Imagine going grocery shopping, but instead of writing a list and making one tri
 A more sensible approach would be to introduce an aggregator endpoint on the backend, following the [Backend-for-Frontend (BFF)](https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends) pattern, also related to the [Gateway Aggregation](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation) pattern. This could potentially merge these requests into a single API call instead of eight, combined with proper client-side caching of infrequently changing data such as student information, as shown in <FigureRef id="fig-bff" />.
 
 <Figure id="fig-bff" src="/blog-assets/amis-is-still-slow/bff_aggregation_comparison.svg" alt="Diagram comparing two architectures. In the current setup, the front-end sends eight separate direct requests to individual API endpoints, including student_enlistment, enlistment_finalization, student-holds, student-terms, enlistments, enlistment_addition_only, students, and contents. In the proposed setup, the front-end sends a single request to a BFF aggregator endpoint on the same origin, which then makes internal service calls on the backend without triggering browser-side CORS preflight requests." caption="Eight direct API calls versus one aggregated call" />
-
 
 ### Point C: Inadequate error handling and error recovery, or the lack thereof
 
@@ -159,11 +159,11 @@ The diagrams in this post are original and released under [CC BY 4.0](https://cr
 
 ## TL;DR
 
-| Issue | Root Cause | Suggested Fix |
-|---|---|---|
-| CORS preflight requests double network calls | `Access-Control-Max-Age` set to `0` | Set a sane max-age value, or serve the API from the same origin as the front-end |
-| Too many API requests per module | No client-side caching or request aggregation | Store and cache JSON responses, reuse previously fetched data if API fails, and introduce a BFF / Gateway Aggregation endpoint |
-| Poor error handling | No retry logic, tight coupling between UI and non-essential data | Allow selective retries, decouple critical actions (such as the **Enlist All** button) |
+| Issue                                        | Root Cause                                                       | Suggested Fix                                                                                                                  |
+| -------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| CORS preflight requests double network calls | `Access-Control-Max-Age` set to `0`                              | Set a sane max-age value, or serve the API from the same origin as the front-end                                               |
+| Too many API requests per module             | No client-side caching or request aggregation                    | Store and cache JSON responses, reuse previously fetched data if API fails, and introduce a BFF / Gateway Aggregation endpoint |
+| Poor error handling                          | No retry logic, tight coupling between UI and non-essential data | Allow selective retries, decouple critical actions (such as the **Enlist All** button)                                         |
 
 ## Conclusion
 
@@ -171,6 +171,6 @@ None of the issues discussed above require additional server capacity or a full 
 
 To all future and current UPLB computer science students: I've wanted to put this into writing for a while, and graduation finally gave me the time. Make of it what you will.
 
-**[Part 2](/blog/2026/08/the-cost-of-preflight) is now up!** 
+**[Part 2](/blog/2026/08/the-cost-of-preflight) is now up!**
 
 ![UP SAIS Patience](/blog-assets/amis-is-still-slow/patience.png "A picture showing one of UP SAIS' error messages, 'Patience'.")

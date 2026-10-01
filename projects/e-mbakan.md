@@ -1,18 +1,18 @@
 ---
-tags: 
+tags:
   - "academic"
   - "web"
 title: "E-mbakan"
 subtitle: "Agriculture-oriented, farm-to-table, e-commerce platform"
 dateStart: "2023-11"
 dateEnd: "2024-01"
-technologies: 
+technologies:
   - "html-css"
   - "javascript"
   - "react"
   - "nodejs"
   - "mongodb"
-points: 
+points:
   - "Led a development team of 4 in building a full-stack e-commerce web application to connect farmers directly with consumers."
   - "Managed the entire development cycle including planning, task distribution, UI/UX coordination, and system integration."
   - "Developed the front end using React.js and Material UI, creating user-friendly interfaces for both customers and merchant users."
@@ -21,7 +21,7 @@ points:
   - "Implemented session management and handled browser-based cookie limitations for reliable login state retention."
 preview: "18"
 previewset: true
-links: 
+links:
   - type: "github"
     url: "https://github.com/fofajardo/cmsc100-embakan-ecommerce"
   - type: "youtube"
@@ -35,4 +35,4 @@ For shoppers, the website works like a standard online store where they can brow
 
 Merchants and administrators have access to a specific dashboard to manage the business side of the platform. They can add new products, update inventory levels, and view sales reports to track weekly or monthly income. When orders come in, merchants can confirm them for delivery or cancel them if necessary. The system handles user logins using cookies, though this currently works best on Firefox due to security settings on other browsers while the site is in the testing phase.
 
-*Video demonstration courtesy of R. F. Ramos.*
+_Video demonstration courtesy of R. F. Ramos._

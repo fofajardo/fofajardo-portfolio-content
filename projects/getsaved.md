@@ -1,20 +1,20 @@
 ---
-tags: 
+tags:
   - "academic"
   - "games-and-mods"
 title: "Get Saved"
 subtitle: "Video Game Prototype for Disaster Preparedness Education"
 dateStart: "2018-09"
 dateEnd: ""
-technologies: 
+technologies:
   - "csharp"
   - "mgxna"
-points: 
+points:
   - "Wrote a simple game engine on top of MonoGame that handles most of the general functions from game logic to the user interface used in a video game."
   - "Programmed a prototype video game that aims to raise disaster preparedness and awareness among children."
 preview: "1"
 previewset: true
-links: 
+links:
   - type: "github"
     url: "https://github.com/Lupalop/GetSaved"
 hasBody: true
@@ -22,9 +22,9 @@ hasBody: true
 
 Get Saved is an educational app that informs people about proper procedures before, during, and after disasters, including fire, typhoon, and earthquake emergencies. This app is designed to educate users on what to do in a fun and engaging way by providing games that simulate the different stages of a disaster. This game was developed by a group of Grade 9 students from APEC Schools - Muntinlupa as part of their Life Labs subject. These students recognized the need for an educational tool that could help inform people about proper procedures before, during, and after disasters.
 
- #### Features 
+#### Features
 
- The app includes three main games and two mini-games that teach users about the proper procedures for fire, typhoon, and earthquake emergencies. The three main games are designed to help users prepare before, deal with the disaster during, and recover after the disaster. The mini-games provide additional learning opportunities and reinforce the knowledge learned from the main games.
+The app includes three main games and two mini-games that teach users about the proper procedures for fire, typhoon, and earthquake emergencies. The three main games are designed to help users prepare before, deal with the disaster during, and recover after the disaster. The mini-games provide additional learning opportunities and reinforce the knowledge learned from the main games.
 
 One of the unique features of this app is that it can be used as an educational tool in the classroom. Teachers can use it to educate their students about disaster preparedness in a fun and interactive way. The app is offline, which means it does not require an internet connection once it is downloaded.
 
