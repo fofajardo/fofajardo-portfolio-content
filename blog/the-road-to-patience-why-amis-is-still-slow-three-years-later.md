@@ -2,7 +2,6 @@
 title: "The Road to Patience: Why AMIS Is Still Slow, Three Years Later"
 description: "Notes from years of pressing refresh."
 date: "2026-07-08"
-legacy: true
 tags:
   - amis
   - uplb
