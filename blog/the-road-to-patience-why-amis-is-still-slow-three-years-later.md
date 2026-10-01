@@ -67,6 +67,10 @@ There are several ways to resolve this:
 
 #### Preflight Overhead
 
+As illustrated in <TableRef id="table-overhead-estimate" />, A single page load captured from the enlistment module showed 8 preflight requests adding roughly 580 milliseconds of overhead. The significance is at the aggregate level. Scaled to 3,000 students loading the page once, this adds up to roughly 29 minutes (best case) of overhead across the system, time spent by the server processing requests that are just permission checks. Under peak load, when far more requests compete for the same limited connection pool, this could plausibly rise to somewhere in the 65 to 85 minute range. However, the third column is only an estimation, since I was unable to collect a HAR capture during the actual enlistment period.
+
+<Table id="table-overhead-estimate" caption="Estimated overhead of preflight requests.">
+
 | Metric                                   | Measured (low traffic)  | Rough peak estimate          |
 |------------------------------------------|-------------------------|------------------------------|
 | Preflights per load                      | 8                       | 8                            |
@@ -75,7 +79,7 @@ There are several ways to resolve this:
 | Total preflight time per load            | 581 ms                  | ~1,300 to 1,700 ms           |
 | Aggregate, 3,000 users x 1 load          | ~29 min                 | ~65 to 85 min                |
 
-A single page load captured from the enlistment module showed 8 preflight requests adding roughly 580 milliseconds of overhead. The significance is at the aggregate level. Scaled to 3,000 students loading the page once, this adds up to roughly 29 minutes (best case) of overhead across the system, time spent by the server processing requests that are just permission checks. Under peak load, when far more requests compete for the same limited connection pool, this could plausibly rise to somewhere in the 65 to 85 minute range. However, the third column is only an estimation, since I was unable to collect a HAR capture during the actual enlistment period.
+</Table>
 
 ### Point B: Too Many API Requests
 
