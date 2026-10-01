@@ -127,27 +127,27 @@
   "nav": [
     {
       "href": "/",
-      "icon": "ph:house-bold",
+      "icon": "ph:house-duotone",
       "label": "Home"
     },
     {
       "href": "/about",
-      "icon": "ph:briefcase-bold",
+      "icon": "ph:seal-question-duotone",
       "label": "About Me"
     },
     {
       "href": "/contact",
-      "icon": "ph:mailbox-bold",
+      "icon": "ph:mailbox-duotone",
       "label": "Contact Me"
     },
     {
       "href": "/projects",
-      "icon": "ph:traffic-cone-bold",
+      "icon": "ph:rocket-launch-duotone",
       "label": "Projects"
     },
     {
       "href": "/blog",
-      "icon": "ph:pencil-bold",
+      "icon": "ph:newspaper-clipping-duotone",
       "label": "Blog"
     }
   ]
