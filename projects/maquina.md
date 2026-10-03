@@ -14,7 +14,6 @@ preview: "24"
 links:
   - type: "github"
     url: "https://github.com/Lupalop/Maquina"
-hasBody: true
 ---
 
 Maquina is a custom 2D game engine built on top of the MonoGame framework in C#.

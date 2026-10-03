@@ -13,7 +13,6 @@ preview: "28"
 links:
   - type: "github"
     url: "https://github.com/NuVelocity/FRS42"
-hasBody: true
 ---
 
 FreeRS42 is a modern C++ re-implementation of Ricochet Xtreme, originally developed by Reflexive Entertainment. Built on the NuVelocity engine, it aims to recreate the classic brick-breaking gameplay with modern code, accuracy, and performance.

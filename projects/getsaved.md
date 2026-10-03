@@ -17,7 +17,6 @@ previewset: true
 links:
   - type: "github"
     url: "https://github.com/Lupalop/GetSaved"
-hasBody: true
 ---
 
 Get Saved is an educational app that informs people about proper procedures before, during, and after disasters, including fire, typhoon, and earthquake emergencies. This app is designed to educate users on what to do in a fun and engaging way by providing games that simulate the different stages of a disaster. This game was developed by a group of Grade 9 students from APEC Schools - Muntinlupa as part of their Life Labs subject. These students recognized the need for an educational tool that could help inform people about proper procedures before, during, and after disasters.

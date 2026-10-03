@@ -16,7 +16,6 @@ links:
     url: "https://github.com/fofajardo/psgc-areas"
   - type: "npm"
     url: "https://www.npmjs.com/package/psgc-areas"
-hasBody: true
 ---
 
 This package provides an interface to access the Philippine Standard Geographic Code (PSGC) data. The PSGC is a systematic classification and coding of geographic areas in the Philippines, essential for various government and private sector activities such as statistical analysis, geographic information systems (GIS), and more.

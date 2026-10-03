@@ -13,7 +13,6 @@ preview: "16"
 links:
   - type: "github"
     url: "https://github.com/fofajardo/rtl8851bu"
-hasBody: true
 ---
 
 This repository hosts a modified and updated version of the Realtek RTL8851BU Wi-Fi driver for Linux. It is primarily tested on Arch Linux with a [COMFAST CF-943AX](https://www.alibaba.com/product-detail/COMFAST-RTL8851BU-Wireless-BT-Adapter-Dongle_1601014889255.html), but users of other distributions are welcome to contribute and report their experiences.

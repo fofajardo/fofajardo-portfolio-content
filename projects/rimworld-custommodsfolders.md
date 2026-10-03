@@ -13,7 +13,6 @@ preview: "13"
 links:
   - type: "github"
     url: "https://github.com/frankwilco/CustomModsFolders"
-hasBody: true
 ---
 
 This mod allows loading mods from directories outside the traditional Mods directory where the game resides.

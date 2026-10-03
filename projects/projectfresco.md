@@ -14,7 +14,6 @@ previewset: true
 links:
   - type: "site"
     url: "https://projectfresco.github.io/"
-hasBody: true
 ---
 
 **Project Fresco** was initially developed as a temporary measure back when the Pale Moon add-ons site went down. It has the following set of features, as of writing:

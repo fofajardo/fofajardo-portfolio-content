@@ -16,7 +16,6 @@ links:
     url: "https://github.com/AvalonBar/AvalonBar"
   - type: "site"
     url: "https://avalonbar.github.io/"
-hasBody: true
 ---
 
 AvalonBar is a sidebar with the aim of reimplementing and expanding upon the features and concept of the Longhorn Sidebar. This project is a fork of LongBar from CodePlex.

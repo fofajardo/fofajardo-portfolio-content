@@ -20,7 +20,6 @@ previewset: true
 links:
   - type: "github"
     url: "https://github.com/fofajardo/kodatos"
-hasBody: true
 ---
 
 **KoDatos** is a project that aims to provide Local Government Units (LGUs) with a unified platform for managing COVID-19 vaccination records and test results. The system functions as a centralized website that collates data from hospitals and laboratories, allowing for the creation of a standardized vaccination card design and digital copies for the public. Its primary objective is to simplify the collection and organization of health data across different localities while creating a single, reliable source for verifying records.

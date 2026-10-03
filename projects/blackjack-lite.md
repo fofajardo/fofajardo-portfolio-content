@@ -14,7 +14,6 @@ previewset: true
 links:
   - type: "github"
     url: "https://github.com/fofajardo/cmsc12-blackjack-lite"
-hasBody: true
 ---
 
 A simple text-based implementation of the classic blackjack card game in Python.

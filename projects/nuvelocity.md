@@ -14,7 +14,6 @@ preview: "29"
 links:
   - type: "github"
     url: "https://github.com/NuVelocity/NuVelocity"
-hasBody: true
 ---
 
 NuVelocity (NV) is a C++ re-implementation of the Velocity Engine, the proprietary game engine developed by Reflexive Entertainment and used in games such as Ricochet Xtreme (2001). It was built on top of SDL3 and reconstructed through a combination of static and dynamic reverse engineering, including hex-editor analysis of the game's proprietary file formats and behavioral observation of the original executable. The engine reproduces the property management system, plugin architecture, rendering/layering, particle and physics subsystems, and power-up spawning logic of the original, and served as the foundation for a full re-implementation of Ricochet Xtreme itself.

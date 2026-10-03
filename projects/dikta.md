@@ -21,7 +21,6 @@ links:
     url: "https://github.com/Lupalop/Dikta"
   - type: "gameDemo"
     url: "https://lupalop.github.io/Dikta/"
-hasBody: true
 ---
 
 **DIKTA** is a narrative-driven "Hidden Object, Point and Click, Adventure Game" designed specifically for Senior High School students. The project aims to provide an interactive alternative to traditional learning methods, making history education more engaging and accessible.

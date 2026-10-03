@@ -16,7 +16,6 @@ previewset: true
 links:
   - type: "github"
     url: "https://github.com/Lupalop/PacificLiberty"
-hasBody: true
 ---
 
 **Pacific Liberty** is a text-based adventure game that takes players on a journey back in time to the period of the Bataan Death March during World War II. The game follows the story of a young man who discovers an entryway to the past in his ancestor's old house, transporting him to an entirely new world in the 1940s.

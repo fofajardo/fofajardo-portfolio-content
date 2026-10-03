@@ -31,7 +31,6 @@ previewset: true
 links:
   - type: "github"
     url: "https://github.com/fofajardo/cmsc128-ics-astra"
-hasBody: true
 ---
 
 **ICS-ASTRA (Institute of Computer Science-Alumni System for Tracking Relations and Advancement)** is a web-based platform designed for the Institute of Computer Science at the University of the Philippines Los Baños (UPLB). The project aims to replace manual record-keeping with a centralized system that helps the institute maintain current records of its graduates, organize fundraising, and streamline communication.

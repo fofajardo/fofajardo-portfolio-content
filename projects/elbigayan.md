@@ -20,7 +20,6 @@ previewset: true
 links:
   - type: "github"
     url: "https://github.com/fofajardo/cmsc23-elbigayan"
-hasBody: true
 ---
 
 ELBIgayan is a Flutter mobile app that connects donors and organizations, with administrative moderation for platform verifications.

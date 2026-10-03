@@ -26,7 +26,6 @@ links:
     url: "https://github.com/fofajardo/cmsc100-embakan-ecommerce"
   - type: "youtube"
     url: "https://youtu.be/MntXkmDEjrE"
-hasBody: true
 ---
 
 E-mbakan is an online store designed to let farmers sell their products directly to consumers. The goal is to make buying and selling agricultural goods easier, with the potential to be used by the Philippines' Department of Agriculture to remove middlemen. The website allows people to sign up for accounts either as regular shoppers or as merchants. It is built using common web technologies, including React JS for the design, Node JS for the server, and MongoDB for the database.

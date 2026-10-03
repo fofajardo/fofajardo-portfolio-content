@@ -27,7 +27,6 @@ previewset: true
 links:
   - type: "github"
     url: "https://github.com/fofajardo/haone"
-hasBody: true
 ---
 
 HAOne is a residence hall association management system designed to handle day-to-day operations, resident records, and financial accounting. It replaces manual spreadsheet tracking with a unified interface for hall administration, self-service resident utilities, and transparent financial reporting.

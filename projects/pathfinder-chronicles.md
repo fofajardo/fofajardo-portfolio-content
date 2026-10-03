@@ -22,7 +22,6 @@ links:
     url: "https://www.figma.com/proto/lH4BgJveaWncx644j47beu"
   - type: "researchPaperPdf"
     url: "https://www.academia.edu/145892806/Pathfinder_Chronicles_A_Gamified_Walking_RPG"
-hasBody: true
 ---
 
 **Pathfinder Chronicles** is a mobile application designed to address the increasing sedentary behaviors observed among university students and faculty due to the prevalence of digital educational tools. Specifically developed for the University of the Philippines Los Baños (UPLB), the app leverages the campus's pedestrian-friendly environment to integrate physical activity into daily routines. By transforming real-world steps into in-game progress, the application aims to make walking a purposeful and engaging activity rather than a mundane chore.
